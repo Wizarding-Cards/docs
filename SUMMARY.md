@@ -1,3 +1,7 @@
 # Table of contents
 
-* [README](README.md)
+* [Wizarding Cards](README.md)
+
+## Reference
+
+* [Commands](reference/commands.md)
