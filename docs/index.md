@@ -1,166 +1,89 @@
 ---
-icon: lucide/rocket
+icon: lucide/sparkles
 ---
 
-# Get started
+# Welcome to Wizarding Cards
 
-For full documentation visit [zensical.org](https://zensical.org/docs/).
+**Step into the enchanting world of Wizarding Cards** and embark on a captivating adventure through the mystical realm of the Wizarding World! Collect magical cards featuring iconic characters, elusive creatures, and powerful spells from the Harry Potter universe.
 
-## Commands
+<div class="hp-card" markdown="1">
+<img src="https://wizarding.cards/assets/emojis/card.png" alt="Card" class="hp-emoji"> **What is Wizarding Cards?**
 
-* [`zensical new`][new] - Create a new project
-* [`zensical serve`][serve] - Start local web server
-* [`zensical build`][build] - Build your site
+Wizarding Cards is a Discord bot that brings the magic of card collecting to your server. Claim cards, complete quests, craft rare items, and compete with friends to build the ultimate collection!
+</div>
 
-  [new]: https://zensical.org/docs/usage/new/
-  [serve]: https://zensical.org/docs/usage/preview/
-  [build]: https://zensical.org/docs/usage/build/
+## Quick Start
 
-## Examples
+[**Getting Started**](getting-started.md) - Your first steps in the Wizarding World
 
-### Admonitions
+[**Daily Routine**](daily-routine.md) - Optimise your daily gameplay
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/)
+[**Navigation Guide**](navigation.md) - Understanding the bot interface
 
-!!! note
+## Core Features
 
-    This is a **note** admonition. Use it to provide helpful information.
+### <img src="https://wizarding.cards/assets/emojis/card.png" alt="Card" class="hp-emoji"> Card Collecting
+Claim cards every few hours to build your collection. The rarer the card, the more valuable it is!
 
-!!! warning
+### <img src="https://wizarding.cards/assets/emojis/xp.png" alt="XP" class="hp-emoji"> Streaks
+Build your claiming streak to increase your chances of finding rare cards. The higher your streak, the better your odds!
 
-    This is a **warning** admonition. Be careful!
+### <img src="https://wizarding.cards/assets/emojis/quest.png" alt="Quest" class="hp-emoji"> Daily Quests
+Complete daily challenges to earn extra rewards. Four new quests are available every day at midnight GMT/BST!
 
-### Details
+### <img src="https://wizarding.cards/assets/emojis/items.png" alt="Shop" class="hp-emoji"> Shop
+Spend your hard-earned Galleons on powerful items, caches, and boosters to enhance your collection.
 
-> Go to [documentation](https://zensical.org/docs/authoring/admonitions/#collapsible-blocks)
+### <img src="https://wizarding.cards/assets/emojis/trophies.png" alt="Trophy" class="hp-emoji"> Achievements
+Unlock accolades by reaching milestones and earn trophies to show off your progress.
 
-??? info "Click to expand for more info"
-    
-    This content is hidden until you click to expand it.
-    Great for FAQs or long explanations.
+### <img src="https://wizarding.cards/assets/emojis/vote.png" alt="Vote" class="hp-emoji"> Voting
+Vote for Wizarding Cards on bot listing sites to earn rewards and support the bot!
 
-## Code Blocks
+## Game Currencies
 
-> Go to [documentation](https://zensical.org/docs/authoring/code-blocks/)
+| Currency | How to Get | Used For |
+|----------|------------|----------|
+| <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> **Galleons** | General | Shopping, crafting |
+| <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> **Sweets** | Halloween | Special seasonal items |
+| <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> **Wizard Crackers** | Christmas | Holiday shop items |
+| <img src="https://wizarding.cards/assets/emojis/coal.png" alt="Coal" class="hp-emoji"> **Lumps of Coal** | Christmas | Alternate currency |
 
-``` python hl_lines="2" title="Code blocks"
-def greet(name):
-    print(f"Hello, {name}!") # (1)!
+## Card Rarities
 
-greet("Python")
-```
+Cards come in different rarities, from common to mythic:
 
-1.  > Go to [documentation](https://zensical.org/docs/authoring/code-blocks/#code-annotations)
+- <span class="hp-rarity-common" markdown="1">**Common**</span> - Most frequently found cards, easy to collect
+- <span class="hp-rarity-uncommon" markdown="1">**Uncommon**</span> - Slightly rarer than common, still fairly common
+- <span class="hp-rarity-rare" markdown="1">**Rare**</span> - Takes dedication to collect, can be crafted
+- <span class="hp-rarity-legendary" markdown="1">**Legendary**</span> - Very difficult to obtain, can be <span class="hp-variant-shiny" markdown="1">shiny</span> or crafted
+- <span class="hp-rarity-mythic" markdown="1">**Mythic**</span> - The rarest regular cards, can be <span class="hp-variant-shiny" markdown="1">shiny</span> or <span class="hp-variant-gold" markdown="1">gold</span> (<span class="hp-variant-gold" markdown="1">gold</span> cannot be crafted)
+- <span class="hp-rarity-cursed" markdown="1">**Cursed**</span> - Extremely rare cards that cannot be crafted
 
-    Code annotations allow to attach notes to lines of code.
+## Getting Help
 
-Code can also be highlighted inline: `#!python print("Hello, Python!")`.
+Need assistance? Here's where to find help:
 
-## Content tabs
+- Use the `/help` command in Discord for quick answers
+- Check out our [Commands](commands/claim.md) section for detailed guides
+- Join our [Support Server](https://discord.gg/dS2Avx4qGx) for community help
 
-> Go to [documentation](https://zensical.org/docs/authoring/content-tabs/)
+## Support the Bot
 
-=== "Python"
+Love playing Wizarding Cards? Consider becoming an **Auror** (premium subscriber) for £1.49/month to get:
 
-    ``` python
-    print("Hello from Python!")
-    ```
+- Longer streak window (24 hours instead of 12)
+- Shorter claim cooldown (10 minutes instead of 30)
+- Custom embed colors for your profile
+- Special Auror badge
+- Support the bot's development
 
-=== "Rust"
+[Learn more about Auror benefits](features/premium.md)
 
-    ``` rs
-    println!("Hello from Rust!");
-    ```
+---
 
-## Diagrams
+<div class="hp-card" markdown="1">
+**Ready to begin your magical journey?**
 
-> Go to [documentation](https://zensical.org/docs/authoring/diagrams/)
-
-``` mermaid
-graph LR
-  A[Start] --> B{Error?};
-  B -->|Yes| C[Hmm...];
-  C --> D[Debug];
-  D --> B;
-  B ---->|No| E[Yay!];
-```
-
-## Footnotes
-
-> Go to [documentation](https://zensical.org/docs/authoring/footnotes/)
-
-Here's a sentence with a footnote.[^1]
-
-Hover it, to see a tooltip.
-
-[^1]: This is the footnote.
-
-
-## Formatting
-
-> Go to [documentation](https://zensical.org/docs/authoring/formatting/)
-
-- ==This was marked (highlight)==
-- ^^This was inserted (underline)^^
-- ~~This was deleted (strikethrough)~~
-- H~2~O
-- A^T^A
-- ++ctrl+alt+del++
-
-## Icons, Emojis
-
-> Go to [documentation](https://zensical.org/docs/authoring/icons-emojis/)
-
-* :sparkles: `:sparkles:`
-* :rocket: `:rocket:`
-* :tada: `:tada:`
-* :memo: `:memo:`
-* :eyes: `:eyes:`
-
-## Maths
-
-> Go to [documentation](https://zensical.org/docs/authoring/math/)
-
-$$
-\cos x=\sum_{k=0}^{\infty}\frac{(-1)^k}{(2k)!}x^{2k}
-$$
-
-!!! warning "Needs configuration"
-    Note that MathJax is included via a `script` tag on this page and is not
-    configured in the generated default configuration to avoid including it
-    in a pages that do not need it. See the documentation for details on how
-    to configure it on all your pages if they are more Maths-heavy than these
-    simple starter pages.
-
-<script id="MathJax-script" async src="https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"></script>
-<script>
-  window.MathJax = {
-    tex: {
-      inlineMath: [["\\(", "\\)"]],
-      displayMath: [["\\[", "\\]"]],
-      processEscapes: true,
-      processEnvironments: true
-    },
-    options: {
-      ignoreHtmlClass: ".*|",
-      processHtmlClass: "arithmatex"
-    }
-  };
-</script>
-
-## Task Lists
-
-> Go to [documentation](https://zensical.org/docs/authoring/lists/#using-task-lists)
-
-* [x] Install Zensical
-* [x] Configure `zensical.toml`
-* [x] Write amazing documentation
-* [ ] Deploy anywhere
-
-## Tooltips
-
-> Go to [documentation](https://zensical.org/docs/authoring/tooltips/)
-
-[Hover me][example]
-
-  [example]: https://example.com "I'm a tooltip!"
+Start with our [Getting Started Guide](getting-started.md) to claim your first card!
+</div>

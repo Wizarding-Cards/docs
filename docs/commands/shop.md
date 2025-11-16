@@ -1,0 +1,262 @@
+---
+icon: lucide/shopping-cart
+---
+
+# Shop Command
+
+The `/shop` command opens The Enchanted Emporium - your one-stop shop for magical items, potions, caches, and boosters to enhance your card collecting experience!
+
+## How to Use
+
+```
+/shop
+```
+
+This opens the shop interface where you can browse and purchase items using your Galleons (and sometimes event currency).
+
+## Shop Interface
+
+### Welcome Screen
+
+When you first open the shop, you'll see:
+
+![Shop Welcome](https://wizarding.cards/assets/screenshots/Shop-Landing.jpg)
+
+Click "Enter The Store" to browse items!
+
+### Shop Pages
+
+The shop is organised into pages with 5 items per page:
+
+- Use **<img src="https://wizarding.cards/assets/emojis/prev.png" alt="Prev" class="hp-emoji">** and **<img src="https://wizarding.cards/assets/emojis/next.png" alt="Next" class="hp-emoji">** arrows to navigate
+- Use the **dropdown menu** to select items
+- Your current Galleon balance is displayed at the top
+
+## Item Categories
+
+### 🗝️ Resource Caches
+
+Resource caches provide crafting resources to help you craft specific cards:
+
+| Item | Cost | Resources |
+|------|------|-----------|
+| **Small Resources Cache** | 75 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 30 resources |
+| **Medium Resources Cache** | 125 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 60 resources |
+| **Large Resources Cache** | 225 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 120 resources |
+
+**When to Buy:**
+- Need resources to craft specific cards
+- Close to having enough resources for a desired card
+- Want to speed up crafting progress
+
+### 🧪 Potions
+
+Potions modify crafting costs, reset cooldowns, or boost claims:
+
+| Item | Cost | Effect | Level Required |
+|------|------|--------|----------------|
+| **Rapid Reclamation Remedy** | 100 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | Instantly reset claim cooldown | 1 |
+| **Basic Frugality Flask** | 300 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | Halves crafting resources for Common/Uncommon/Rare cards | 1 |
+| **Rapid Bounty Draught** | 500 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | Get 5 cards per claim (stacks with multiple uses) | 5 |
+| **Advanced Frugality Flask** | 2,500 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | Halves crafting resources for Legendary/Mythic cards (33% reduction for shinies) | 1 |
+
+**When to Buy:**
+- **Rapid Reclamation Remedy:** Your streak is about to expire
+- **Frugality Flasks:** When crafting expensive cards (especially Legendary/Mythic)
+- **Rapid Bounty Draught:** To maximise cards per claim session
+
+
+## Seasonal Shop Items
+
+During special events, seasonal items appear:
+
+### <img src="https://wizarding.cards/assets/emojis/halloween.png" alt="Halloween" class="hp-emoji"> Halloween Shop (October)
+
+Uses **Sweets** <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> currency:
+
+| Item | Cost | Level Required | Contents |
+|------|------|----------------|----------|
+| **Trick-or-Treat Crate** | 200 <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> | 1 | Small spooky crate with treats, resources, and surprises |
+| **Haunted Harvest Crate** | 550 <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> | 5 | Medium crate with bewitched rewards |
+| **Pumpkin King's Crate** | 950 <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> | 10 | Large crate blessed by the Pumpkin King |
+| **Cursed Cauldron Crate** | 1,500 <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> | 15 | Legendary crate overflowing with powerful rewards |
+
+### <img src="https://wizarding.cards/assets/emojis/christmas.png" alt="Christmas" class="hp-emoji"> Christmas Shop (December)
+
+Uses **Wizard Crackers** <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> currency:
+
+| Item | Cost | Level Required | Contents |
+|------|------|----------------|----------|
+| **Festive Treat Crate** | 200 <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> | 1 | Small cheerful crate filled with holiday goodies |
+| **Snowfall Surprise Crate** | 550 <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> | 5 | Medium crate wrapped in snow and sparkle |
+| **Santa's Gift Crate** | 950 <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> | 10 | Large festive crate delivered by Santa |
+| **North Pole Crate** | 1,500 <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> | 15 | Legendary crate from the North Pole |
+
+[Learn more about seasonal events →](../features/seasonal-events.md)
+
+## Purchasing Items
+
+### How to Buy
+
+1. Open `/shop`
+2. Click "Enter The Store"
+3. Navigate to the item you want
+4. Select it from the dropdown
+5. Enter quantity (if applicable)
+6. Confirm purchase
+
+### Confirmation Screen
+
+![Purchase Confirmation](https://wizarding.cards/assets/screenshots/Shop-Purchase.jpg)
+
+## Level Requirements
+
+Some items are locked until you reach certain levels:
+
+| Level | Unlocked Items |
+|-------|----------------|
+| **1** | Resource Caches, Rapid Reclamation Remedy, Frugality Flasks, Seasonal crates (small) |
+| **5** | Rapid Bounty Draught, Seasonal crates (medium) |
+| **10** | Seasonal crates (large) |
+| **15** | Seasonal crates (legendary) |
+
+🔒 **Locked items** show: "Level X Required"
+
+!!! note "Items Not in Shop"
+    Some items are not available for purchase with Galleons:
+    - **Milestone Crate** - Given automatically when the bot hits major milestones
+    - **Time Turner** - Available through Discord Store (real money purchase)
+    - **Repetition Repellent Elixir** - Has dynamic pricing (check current price in shop)
+    - **House Colours** - Available through Discord Store (real money purchase)
+    - **Vault Key** - Available through Discord Store (real money purchase)
+
+## Using Purchased Items
+
+Items go into your inventory automatically. To use them:
+
+```
+/profile → Inventory → Select Item → Use
+```
+
+Most items activate automatically when conditions are met (e.g., potions apply on your next claim).
+
+## Shopping Strategies
+
+### For New Players
+
+**Priority Purchases:**
+1. **Rapid Reclamation Remedy** - Protect your streak (keep 2-3 in inventory)
+2. **Small Resources Cache** - Get resources to craft your first cards
+3. **Basic Frugality Flask** - Save resources when crafting Common/Uncommon/Rare cards
+
+### For Mid-Game Players
+
+**Priority Purchases:**
+1. **Rapid Bounty Draught** - Maximise cards per claim session
+2. **Medium/Large Resources Cache** - Get resources for crafting Rare+ cards
+3. **Advanced Frugality Flask** - Save resources when crafting Legendary/Mythic cards
+
+### For End-Game Players
+
+**Priority Purchases:**
+1. **Advanced Frugality Flask** - Essential for crafting expensive Legendary/Mythic cards
+2. **Large Resources Cache** - Bulk resources for multiple crafts
+3. **Rapid Bounty Draught** - Stack multiple uses for maximum cards per claim
+
+## Galleon Management
+
+### How to Earn Galleons
+
+- Claiming cards (50-100 per claim, more with streaks)
+- Voting on bot lists (100 per site)
+- Completing daily quests (bonus rewards)
+- Level up rewards
+- Seasonal events
+
+### How Much to Save
+
+**General Guidelines:**
+- **Emergency Fund:** 300-500 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> (for Rapid Reclamation Remedy to protect streaks)
+- **Regular Shopping:** 500-1,000 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> (for Resource Caches and Basic Frugality Flask)
+- **Major Purchases:** 2,500+ <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> (for Advanced Frugality Flask)
+
+!!! tip "Save for Events!"
+    Set aside Galleons before seasonal events - they often have limited-time items worth buying!
+
+## Special Offers
+
+Occasionally, the shop features special deals:
+
+- **Limited Time Discounts** - Items on sale
+- **Bundle Deals** - Multiple items at reduced cost
+- **Event Exclusives** - Only available during events
+
+Watch for announcements in the support server!
+
+## Item Stacking
+
+Some effects stack, others don't:
+
+**Do Stack:**
+- Multiple Rapid Bounty Draught uses (each use adds 5 more cards per claim)
+- Frugality Flasks work independently (Basic for Common/Uncommon/Rare, Advanced for Legendary/Mythic)
+- Potions + High Streaks (multiplicative benefits!)
+
+**Don't Stack:**
+- Multiple Frugality Flasks of the same type (only one active at a time)
+
+## Common Mistakes to Avoid
+
+❌ **Buying Items You Don't Need** - Plan your purchases  
+❌ **Not Using Items** - Items are meant to be used!  
+❌ **Spending All Your Galleons** - Keep an emergency fund for Rapid Reclamation Remedy  
+❌ **Ignoring Level Requirements** - Save up for when you unlock better items  
+❌ **Buying Resource Caches Too Early** - Better to claim naturally and disenchant duplicates first  
+
+## Troubleshooting
+
+### "You don't have enough Galleons"
+- **Cause:** Insufficient Galleon balance
+- **Solution:** Earn more through claiming, voting, and quests
+
+### "This item is locked"
+- **Cause:** You haven't reached the required level
+- **Solution:** Continue playing to level up
+
+### "Item purchase failed"
+- **Cause:** Temporary bot issue
+- **Solution:** Wait and try again
+
+## Related Commands
+
+- [`/profile`](profile.md) - Check your Galleon balance and inventory
+- [`/claim`](claim.md) - Earn Galleons
+- [`/vote`](vote.md) - Get Galleons from voting
+- [`/daily`](daily.md) - Complete quests for Galleon rewards
+
+## Frequently Asked Questions
+
+**Q: Can I refund items?**  
+A: No, all shop purchases are final.
+
+**Q: Do items expire?**  
+A: Most items don't expire, but their effects have limited uses (e.g., "3 claims").
+
+**Q: Can I gift items to friends?**  
+A: Not currently - items are account-bound.
+
+**Q: What's the best value purchase?**  
+A: Rapid Reclamation Remedy is essential for streak protection. Advanced Frugality Flask is incredibly valuable when crafting Legendary/Mythic cards. Rapid Bounty Draught is great for maximising cards per claim session.
+
+**Q: Do shop prices ever change?**  
+A: Occasionally during events or balance updates.
+
+**Q: Can I buy items with real money?**  
+A: Some items like Time Turner, House Colours, and Vault Key are available via Discord Store (real money purchase). All gameplay items in the shop use in-game Galleons or event currency.
+
+---
+
+<div class="hp-card" markdown="1">
+**Shop Smart!** The best purchases enhance your natural gameplay rather than replacing it. Use items strategically to maximise your progress! Keep an emergency fund of Rapid Reclamation Remedy for streak protection, and save up for Advanced Frugality Flask when you're ready to craft expensive cards.
+</div>
+
