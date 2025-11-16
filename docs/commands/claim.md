@@ -142,7 +142,7 @@ When a Global Vault Key is active:
 
 !!! tip "Maximise Your Claims"
     **Best Practices:**
-    
+
     1. **Set Reminders** - Don't let your streak die!
     2. **Claim Consistently** - Try to claim every 3 hours during active hours
     3. **Build High Streaks** - The benefits compound significantly
@@ -151,17 +151,17 @@ When a Global Vault Key is active:
 
 ## Common Mistakes to Avoid
 
-❌ **Forgetting About Cooldown** - Claiming is time-gated, plan accordingly  
-❌ **Breaking Streaks** - Set multiple reminders to prevent this  
-❌ **Not Using Items** - Felix Felicis and other items are meant to be used!  
-❌ **Claiming Without Strategy** - Consider using Duplicate Prevention when targeting specific cards  
+❌ **Forgetting About Cooldown** - Claiming is time-gated, plan accordingly
+❌ **Breaking Streaks** - Set multiple reminders to prevent this
+❌ **Not Using Items** - Felix Felicis and other items are meant to be used!
+❌ **Claiming Without Strategy** - Consider using Duplicate Prevention when targeting specific cards
 
 ## Daily Quest Integration
 
 The `/claim` command is central to many daily quests:
 
 - "Claim X Common Cards"
-- "Claim X Uncommon Cards"  
+- "Claim X Uncommon Cards"
 - "Claim X Rare Cards"
 - "Claim X Legendary Cards"
 - "Claim X Mythic Cards"
@@ -191,19 +191,19 @@ Your claims automatically count toward these quests!
 
 ## Frequently Asked Questions
 
-**Q: Can I claim multiple cards at once?**  
+**Q: Can I claim multiple cards at once?**
 A: No, `/claim` gives one card at a time with a cooldown between claims.
 
-**Q: Can I choose which card I get?**  
+**Q: Can I choose which card I get?**
 A: No, claims are random. Use `/craft` to target specific cards.
 
-**Q: Do duplicate cards have any value?**  
+**Q: Do duplicate cards have any value?**
 A: Yes! You can disenchant them for resources to craft other cards.
 
-**Q: What happens to my streak if I become Auror?**  
+**Q: What happens to my streak if I become Auror?**
 A: Your current streak is preserved, and you immediately get the 24-hour window instead of 12.
 
-**Q: Is there a limit to how high my streak can go?**  
+**Q: Is there a limit to how high my streak can go?**
 A: No limit! Some players have streaks in the hundreds or thousands.
 
 ---
