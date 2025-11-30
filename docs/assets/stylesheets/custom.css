@@ -746,12 +746,12 @@ body {
 }
 
 .hp-rarity-legendary {
-    color: #9c27b0 !important; /* Purple for Legendary */
+    color: #e53935 !important; /* Purple for Legendary */
     font-weight: 600;
 }
 
 .hp-rarity-mythic {
-    color: var(--hp-gold) !important; /* Gold for Mythic */
+    color: #ab47bc !important; /* Gold for Mythic */
     font-weight: 600;
 }
 
