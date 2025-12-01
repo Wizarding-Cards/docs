@@ -161,11 +161,11 @@ Disenchanting awards both Galleons and XP based on the card's rarity and variant
 
 | Card Rarity | Base XP | With Shiny | With Gold |
 |-------------|---------|------------|-----------|
-| **Common** | 75 XP | 225 XP | 375 XP |
-| **Uncommon** | 150 XP | 450 XP | 750 XP |
-| **Rare** | 225 XP | 675 XP | 1,125 XP |
-| **Legendary** | 300 XP | 900 XP | 1,500 XP |
-| **Mythic** | 375 XP | 1,125 XP | 1,875 XP |
+| **Common** | <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 75 XP | <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 225 XP | <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 375 XP |
+| **Uncommon** | <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 150 XP | <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 450 XP | <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 750 XP |
+| **Rare** | <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 225 XP | <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 675 XP | <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 1,125 XP |
+| **Legendary** | <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 300 XP | <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 900 XP | <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 1,500 XP |
+| **Mythic** | <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 375 XP | <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 1,125 XP | <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 1,875 XP |
 
 !!! note "Reward Calculation"
     Rewards are calculated as: **Base (3 Galleons, 75 XP) × Rarity Multiplier × Variant Multiplier (Shiny=3×, Gold=5×) × Global Multiplier (if active) × Successful Disenchants**

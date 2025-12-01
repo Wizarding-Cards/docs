@@ -211,7 +211,7 @@ To see all cards you can currently craft:
 
 1. Use `/profile`
 2. Click **Collection**
-3. Look for <span class="hp-icon-orange" markdown="1">orange diamonds <img src="https://wizarding.cards/assets/emojis/craftable.png" alt="Craftable" class="hp-emoji"></span>
+3. Look for <span class="hp-icon-orange" markdown="1"><img src="https://wizarding.cards/assets/emojis/craftable.png" alt="Craftable" class="hp-emoji"> Orange Diamonds</span>
 4. Navigate through pages to find all craftable options
 
 Alternatively, sort by "Can Craft" using the sort dropdown in your collection view.
