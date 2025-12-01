@@ -10,6 +10,8 @@ Understanding the Wizarding Cards interface is key to efficiently managing your 
 
 When viewing your collection through `/profile` → **Collection**, you'll see different colored icons next to each card:
 
+![Collection Interface](https://wizarding.cards/assets/screenshots/Profile-Collection.jpg)
+
 ### <span class="hp-icon-green" markdown="1"><img src="https://wizarding.cards/assets/emojis/owned.png" alt="Owned" class="hp-emoji"> Green Diamond</span>
 **Meaning:** You **own** this card
 
@@ -17,10 +19,6 @@ When viewing your collection through `/profile` → **Collection**, you'll see d
 - You have at least one copy
 - The number next to it shows how many copies you have
 - Safe to disenchant extras if you have multiple copies
-
-**Example Display:**
-
-![Collection - Owned Card](https://wizarding.cards/assets/screenshots/Profile-Collection.jpg)
 
 ### <span class="hp-icon-red" markdown="1"><img src="https://wizarding.cards/assets/emojis/notowned.png" alt="Not Owned" class="hp-emoji"> Red Diamond</span>
 **Meaning:** You **don't own** this card yet
@@ -30,10 +28,6 @@ When viewing your collection through `/profile` → **Collection**, you'll see d
 - Check if it's craftable (see orange icon below)
 - These are your collection completion targets
 
-**Example Display:**
-
-![Collection - Not Owned Card](https://wizarding.cards/assets/screenshots/Profile-Collection.jpg)
-
 ### <span class="hp-icon-orange" markdown="1"><img src="https://wizarding.cards/assets/emojis/craftable.png" alt="Craftable" class="hp-emoji"> Orange Diamond</span>
 **Meaning:** You **can craft** this card
 
@@ -42,20 +36,16 @@ When viewing your collection through `/profile` → **Collection**, you'll see d
 - Crafting costs resources but guarantees you'll get the card
 - More efficient than hoping for random claims for specific cards
 
-**Example Display:**
-
-![Collection - Craftable Card](https://wizarding.cards/assets/screenshots/Profile-Collection.jpg)
-
 !!! tip "Collection Strategy"
     Focus on crafting orange icon cards to fill gaps in your collection. This is faster than waiting for random claims!
 
 ## Profile Interface Elements
 
+![Profile Interface](https://wizarding.cards/assets/screenshots/Profile.jpg)
+
 ### XP and Level Bar
 
 The XP bar shows your progress to the next level:
-
-![XP Bar](https://wizarding.cards/assets/screenshots/Profile.jpg)
 
 - **Filled sections** = XP you've earned
 - **Empty sections** = XP still needed
@@ -64,8 +54,6 @@ The XP bar shows your progress to the next level:
 ### Trophy Bar
 
 Shows achievement completion progress:
-
-![Trophy Bar](https://wizarding.cards/assets/screenshots/Profile.jpg)
 
 - **First number** = Trophies earned
 - **Second number** = Total available trophies

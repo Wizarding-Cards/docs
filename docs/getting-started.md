@@ -43,7 +43,7 @@ The **streak system** is key to finding rare cards. Each time you claim a card w
 
 **Benefits of Streaks:**
 
-- Higher streaks = Better odds of rare cards
+- Higher streaks = Better odds of higher rarity cards
 - Streak multiplies your Galleon rewards
 - Shows your dedication to the game
 
