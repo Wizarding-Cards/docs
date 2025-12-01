@@ -8,15 +8,7 @@ The `/craft` command allows you to create specific cards using resources obtaine
 
 ## How to Use
 
-```
-/craft
-```
-
-When you use this command, you'll see:
-
-1. A list of cards you can craft (those you have resources for)
-2. The resource requirements for each card
-3. An interface to select which card to craft
+Simply type `/craft` in any channel where the bot is present. The bot will show you a list of all cards available to craft. When you select a card, it will display the resource requirements and allow you to craft it if you have enough resources.
 
 ## What is Crafting?
 
@@ -35,7 +27,7 @@ Every card requires specific resources to craft, based on its rarity.
 
 ### Resource Types
 
-Resources come in six rarities that match card rarities:
+Resources come in five rarities that match craftable card rarities:
 
 | Resource Rarity | Used For |
 |----------------|----------|
@@ -44,7 +36,6 @@ Resources come in six rarities that match card rarities:
 | **Rare Resources** | Crafting Rare cards |
 | **Legendary Resources** | Crafting Legendary cards |
 | **Mythic Resources** | Crafting Mythic cards |
-| **Cursed Resources** | Crafting Cursed cards (special) |
 
 ### Resource Requirements
 
@@ -79,7 +70,7 @@ The first page of your collection shows your resource inventory:
 
 ### Step 2: Find Cards to Craft
 
-In your collection, look for the <span class="hp-icon-orange" markdown="1">orange hammer icon <img src="https://wizarding.cards/assets/emojis/craft.png" alt="Craft" class="hp-emoji"></span> next to cards:
+In your collection, look for the <span class="hp-icon-orange" markdown="1">orange diamond <img src="https://wizarding.cards/assets/emojis/craftable.png" alt="Craftable" class="hp-emoji"></span> next to cards:
 
 - Orange icon = You have enough resources to craft this card
 - The icon appears automatically when you meet the requirements
@@ -119,33 +110,43 @@ Not sure what to craft first? Here's a recommended priority:
 
 ## Crafting Costs Reference
 
+Resource costs are stored per card in the database and may vary. The following are typical costs:
+
 ### Common Cards
-- **Cost:** 3 Common Resources
-- **XP Reward:** 25 XP
+- **Typical Cost:** 3 Common Resources
+- **Galleon Reward:** 5 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> (5 × 1)
+- **XP Reward:** 500 XP (500 × 1)
 - **Best Strategy:** Don't craft these - claim them naturally
 
 ### Uncommon Cards
-- **Cost:** 5 Uncommon Resources
-- **XP Reward:** 30 XP
+- **Typical Cost:** 5 Uncommon Resources
+- **Galleon Reward:** 10 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> (5 × 2)
+- **XP Reward:** 1,000 XP (500 × 2)
 - **Best Strategy:** Only craft to complete sets or for quests
 
 ### Rare Cards
-- **Cost:** 8 Rare Resources
-- **XP Reward:** 50 XP
+- **Typical Cost:** 8 Rare Resources
+- **Galleon Reward:** 15 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> (5 × 3)
+- **XP Reward:** 1,500 XP (500 × 3)
 - **Best Strategy:** Good crafting targets - hard to claim, reasonable cost
 
 ### Legendary Cards
-- **Cost:** 15 Legendary Resources
-- **XP Reward:** 100 XP
+- **Typical Cost:** 15 Legendary Resources
+- **Galleon Reward:** 20 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> (5 × 4)
+- **XP Reward:** 2,000 XP (500 × 4)
 - **Best Strategy:** Excellent for collection completion
 
 ### Mythic Cards
-- **Cost:** 30 Mythic Resources
-- **XP Reward:** 200 XP
+- **Typical Cost:** 30 Mythic Resources
+- **Galleon Reward:** 25 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> (5 × 5)
+- **XP Reward:** 2,500 XP (500 × 5)
 - **Best Strategy:** Only craft when you have excess mythic resources
 
-!!! warning "Cannot Craft Variants"
-    You **cannot** craft <span class="hp-variant-shiny" markdown="1">Shiny</span> <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> or <span class="hp-variant-gold" markdown="1">Gold</span> <img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"> variants. These must be claimed randomly!
+!!! note "Reward Calculation"
+    Craft rewards are calculated as: **Base (5 Galleons, 500 XP) × Rarity Multiplier × Shiny Multiplier (if applicable) × Global Multiplier (if active)**
+
+!!! note "Shiny Variants"
+    <span class="hp-variant-shiny" markdown="1">Shiny</span> <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> variants **can** be crafted, but they cost **3× the resources** and give **3× the rewards**. <span class="hp-variant-gold" markdown="1">Gold</span> <img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"> variants cannot be crafted and must be claimed randomly.
 
 ## Daily Quest Integration
 
@@ -171,7 +172,8 @@ Understanding when to craft vs claim:
 | Missing specific rare card | **Craft** - more reliable than waiting |
 | Missing legendary card | **Craft** - very low claim chance |
 | Missing mythic card | **Craft** - extremely low claim chance |
-| Want shiny/gold variant | **Claim** - can't be crafted |
+| Want shiny variant | **Craft** - costs 3× resources but gives 3× rewards |
+| Want gold variant | **Claim** - can't be crafted, must be claimed randomly |
 | Completing daily quest | **Craft** - guaranteed quest progress |
 
 ## Resource Farming Strategy
@@ -197,11 +199,11 @@ To build up resources for crafting:
 
 ## Common Mistakes to Avoid
 
-❌ **Crafting Cards You Already Have** - Check your collection first!  
-❌ **Wasting Resources on Commons** - These are easy to claim  
-❌ **Not Checking Quest Requirements** - Craft the right rarity for quests  
-❌ **Hoarding Resources Forever** - Use them to progress your collection  
-❌ **Crafting Without a Plan** - Know what you need before spending  
+- ❌ **Crafting Cards You Already Have** - Check your collection first!
+- ❌ **Wasting Resources on Commons** - These are easy to claim
+- ❌ **Not Checking Quest Requirements** - Craft the right rarity for quests
+- ❌ **Hoarding Resources Forever** - Use them to progress your collection
+- ❌ **Crafting Without a Plan** - Know what you need before spending
 
 ## Viewing Craftable Cards
 
@@ -209,7 +211,7 @@ To see all cards you can currently craft:
 
 1. Use `/profile`
 2. Click **Collection**
-3. Look for <span class="hp-icon-orange" markdown="1">orange <img src="https://wizarding.cards/assets/emojis/craft.png" alt="Craft" class="hp-emoji"> icons</span>
+3. Look for <span class="hp-icon-orange" markdown="1">orange diamonds <img src="https://wizarding.cards/assets/emojis/craftable.png" alt="Craftable" class="hp-emoji"></span>
 4. Navigate through pages to find all craftable options
 
 Alternatively, sort by "Can Craft" using the sort dropdown in your collection view.
@@ -242,23 +244,29 @@ Your resource totals are shown on the first page of your collection:
 
 ## Frequently Asked Questions
 
-**Q: Can I undo a craft?**  
+**Q: Can I undo a craft?**
+
 A: No, crafting is permanent. Double-check before confirming!
 
-**Q: Can I craft Shiny or Gold cards?**  
-A: No, variants can only be obtained through claims.
+**Q: Can I craft Shiny or Gold cards?**
 
-**Q: What happens if I craft a card I already have?**  
+A: <span class="hp-variant-shiny" markdown="1">Shiny</span> variants **can** be crafted, but they cost 3× the resources and give 3× the rewards. <span class="hp-variant-gold" markdown="1">Gold</span> variants cannot be crafted and must be obtained through claims.
+
+**Q: What happens if I craft a card I already have?**
+
 A: You'll get another copy (quantity increases). This is generally not recommended unless intentional.
 
-**Q: Do crafted cards count for quests?**  
+**Q: Do crafted cards count for quests?**
+
 A: Yes! Crafts count toward "Card Crafter" daily quests.
 
-**Q: Is there a crafting cooldown?**  
+**Q: Is there a crafting cooldown?**
+
 A: No, you can craft as many cards as you have resources for.
 
-**Q: Can I craft Cursed cards?**  
-A: Cursed cards typically can't be crafted - they're event-exclusive.
+**Q: Can I craft Cursed cards?**
+
+A: Cursed cards cannot be crafted - they're event-exclusive and must be claimed randomly.
 
 ---
 
