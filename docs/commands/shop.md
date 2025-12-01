@@ -29,9 +29,9 @@ Resource caches provide crafting resources to help you craft specific cards:
 
 | Item | Cost | Resources |
 |------|------|-----------|
-| **Small Resources Cache** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 75 | 30 resources |
-| **Medium Resources Cache** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 125 | 60 resources |
-| **Large Resources Cache** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 225 | 120 resources |
+| <img src="https://wizarding.cards/assets/emojis/smallcache.png" alt="Small Cache" class="hp-emoji"> **Small Resources Cache** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 75 | 30 resources |
+| <img src="https://wizarding.cards/assets/emojis/mediumcache.png" alt="Medium Cache" class="hp-emoji"> **Medium Resources Cache** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 125 | 60 resources |
+| <img src="https://wizarding.cards/assets/emojis/largecache.png" alt="Large Cache" class="hp-emoji"> **Large Resources Cache** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 225 | 120 resources |
 
 **When to Buy:**
 - Need resources to craft specific cards
@@ -42,17 +42,18 @@ Resource caches provide crafting resources to help you craft specific cards:
 
 Potions modify crafting costs, reset cooldowns, or boost claims:
 
-| Item | Cost | Effect | Level Required |
-|------|------|--------|----------------|
-| **Rapid Reclamation Remedy** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 100 | Instantly reset claim cooldown | 1 |
-| **Basic Frugality Flask** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 300 | Halves crafting resources for Common/Uncommon/Rare cards | 1 |
-| **Rapid Bounty Draught** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 500 | Get 5 cards per claim (stacks with multiple uses) | 5 |
-| **Advanced Frugality Flask** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 2,500 | Halves crafting resources for Legendary/Mythic cards (33% reduction for shinies) | 1 |
+| Item | Cost | Effect |
+|------|------|--------|
+| <img src="https://wizarding.cards/assets/emojis/rapidreclamationremedy.png" alt="Rapid Reclamation Remedy" class="hp-emoji"> **Rapid Reclamation Remedy** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 100 | Instantly reset claim cooldown |
+| <img src="https://wizarding.cards/assets/emojis/basicfrugalityflask.png" alt="Basic Frugality Flask" class="hp-emoji"> **Basic Frugality Flask** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 300 | Halves crafting resources for Common/Uncommon/Rare cards |
+| <img src="https://wizarding.cards/assets/emojis/rapidbountydraught.png" alt="Rapid Bounty Draught" class="hp-emoji"> **Rapid Bounty Draught** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 500 | Get 5 cards per claim (stacks with multiple uses) |
+| <img src="https://wizarding.cards/assets/emojis/advancedfrugalityflask.png" alt="Advanced Frugality Flask" class="hp-emoji"> **Advanced Frugality Flask** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 2,500 | Halves crafting resources for Legendary/Mythic cards (33% reduction for shinies) |
 
 **When to Buy:**
-- **Rapid Reclamation Remedy:** Your streak is about to expire
-- **Frugality Flasks:** When crafting expensive cards (especially Legendary/Mythic)
-- **Rapid Bounty Draught:** To maximise cards per claim session
+
+- **<img src="https://wizarding.cards/assets/emojis/rapidreclamationremedy.png" alt="Rapid Reclamation Remedy" class="hp-emoji"> Rapid Reclamation Remedy:** Your streak is about to expire
+- **<img src="https://wizarding.cards/assets/emojis/basicfrugalityflask.png" alt="Basic Frugality Flask" class="hp-emoji"> <img src="https://wizarding.cards/assets/emojis/advancedfrugalityflask.png" alt="Advanced Frugality Flask" class="hp-emoji"> Frugality Flasks:** When crafting expensive cards (especially Legendary/Mythic)
+- **<img src="https://wizarding.cards/assets/emojis/rapidbountydraught.png" alt="Rapid Bounty Draught" class="hp-emoji"> Rapid Bounty Draught:** To maximise cards per claim session
 
 
 ## Seasonal Shop Items
@@ -63,23 +64,23 @@ During special events, seasonal items appear:
 
 Uses <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> **Sweets** currency:
 
-| Item | Cost | Level Required | Contents |
-|------|------|----------------|----------|
-| **Trick-or-Treat Crate** | 200 <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> | 1 | Small spooky crate with treats, resources, and surprises |
-| **Haunted Harvest Crate** | 550 <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> | 5 | Medium crate with bewitched rewards |
-| **Pumpkin King's Crate** | 950 <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> | 10 | Large crate blessed by the Pumpkin King |
-| **Cursed Cauldron Crate** | 1,500 <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> | 15 | Legendary crate overflowing with powerful rewards |
+| Item | Cost | Contents |
+|------|------|----------|
+| <img src="https://wizarding.cards/assets/emojis/trickortreatcrate.png" alt="Trick-or-Treat Crate" class="hp-emoji"> **Trick-or-Treat Crate** | <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> 200 | Small spooky crate with treats, resources, and surprises |
+| <img src="https://wizarding.cards/assets/emojis/hauntedharvestcrate.png" alt="Haunted Harvest Crate" class="hp-emoji"> **Haunted Harvest Crate** | <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> 550 | Medium crate with bewitched rewards |
+| <img src="https://wizarding.cards/assets/emojis/pumpkingscrate.png" alt="Pumpkin King's Crate" class="hp-emoji"> **Pumpkin King's Crate** | <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> 950 | Large crate blessed by the Pumpkin King |
+| <img src="https://wizarding.cards/assets/emojis/cursedcauldroncrate.png" alt="Cursed Cauldron Crate" class="hp-emoji"> **Cursed Cauldron Crate** | <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> 1,500 | Legendary crate overflowing with powerful rewards |
 
 ### <img src="https://wizarding.cards/assets/emojis/christmas.png" alt="Christmas" class="hp-emoji"> Christmas Shop (December)
 
 Uses <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> **Wizard Crackers** currency:
 
-| Item | Cost | Level Required | Contents |
-|------|------|----------------|----------|
-| **Festive Treat Crate** | 200 <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> | 1 | Small cheerful crate filled with holiday goodies |
-| **Snowfall Surprise Crate** | 550 <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> | 5 | Medium crate wrapped in snow and sparkle |
-| **Santa's Gift Crate** | 950 <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> | 10 | Large festive crate delivered by Santa |
-| **North Pole Crate** | 1,500 <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> | 15 | Legendary crate from the North Pole |
+| Item | Cost | Contents |
+|------|------|----------|
+| <img src="https://wizarding.cards/assets/emojis/festivetreatcrate.png" alt="Festive Treat Crate" class="hp-emoji"> **Festive Treat Crate** | <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> 200 | Small cheerful crate filled with holiday goodies |
+| <img src="https://wizarding.cards/assets/emojis/snowfallsurprisecrate.png" alt="Snowfall Surprise Crate" class="hp-emoji"> **Snowfall Surprise Crate** | <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> 550 | Medium crate wrapped in snow and sparkle |
+| <img src="https://wizarding.cards/assets/emojis/santasgiftcrate.png" alt="Santa's Gift Crate" class="hp-emoji"> **Santa's Gift Crate** | <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> 950 | Large festive crate delivered by Santa |
+| <img src="https://wizarding.cards/assets/emojis/northpolecrate.png" alt="North Pole Crate" class="hp-emoji"> **North Pole Crate** | <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> 1,500 | Legendary crate from the North Pole |
 
 [Learn more about seasonal events →](../features/seasonal-events.md)
 
@@ -130,23 +131,26 @@ Most items activate automatically when conditions are met (e.g., potions apply o
 ### For New Players
 
 **Priority Purchases:**
-1. **Rapid Reclamation Remedy** - Protect your streak (keep 2-3 in inventory)
-2. **Small Resources Cache** - Get resources to craft your first cards
-3. **Basic Frugality Flask** - Save resources when crafting Common/Uncommon/Rare cards
+
+1. **<img src="https://wizarding.cards/assets/emojis/rapidreclamationremedy.png" alt="Rapid Reclamation Remedy" class="hp-emoji"> Rapid Reclamation Remedy** - Protect your streak (keep 2-3 in inventory)
+2. **<img src="https://wizarding.cards/assets/emojis/smallcache.png" alt="Small Cache" class="hp-emoji"> Small Resources Cache** - Get resources to craft your first cards
+3. **<img src="https://wizarding.cards/assets/emojis/basicfrugalityflask.png" alt="Basic Frugality Flask" class="hp-emoji"> Basic Frugality Flask** - Save resources when crafting Common/Uncommon/Rare cards
 
 ### For Mid-Game Players
 
 **Priority Purchases:**
-1. **Rapid Bounty Draught** - Maximise cards per claim session
-2. **Medium/Large Resources Cache** - Get resources for crafting Rare+ cards
-3. **Advanced Frugality Flask** - Save resources when crafting Legendary/Mythic cards
+
+1. **<img src="https://wizarding.cards/assets/emojis/rapidbountydraught.png" alt="Rapid Bounty Draught" class="hp-emoji"> Rapid Bounty Draught** - Maximise cards per claim session
+2. **<img src="https://wizarding.cards/assets/emojis/mediumcache.png" alt="Medium Cache" class="hp-emoji"> <img src="https://wizarding.cards/assets/emojis/largecache.png" alt="Large Cache" class="hp-emoji"> Medium/Large Resources Cache** - Get resources for crafting Rare+ cards
+3. **<img src="https://wizarding.cards/assets/emojis/advancedfrugalityflask.png" alt="Advanced Frugality Flask" class="hp-emoji"> Advanced Frugality Flask** - Save resources when crafting Legendary/Mythic cards
 
 ### For End-Game Players
 
 **Priority Purchases:**
-1. **Advanced Frugality Flask** - Essential for crafting expensive Legendary/Mythic cards
-2. **Large Resources Cache** - Bulk resources for multiple crafts
-3. **Rapid Bounty Draught** - Stack multiple uses for maximum cards per claim
+
+1. **<img src="https://wizarding.cards/assets/emojis/advancedfrugalityflask.png" alt="Advanced Frugality Flask" class="hp-emoji"> Advanced Frugality Flask** - Essential for crafting expensive Legendary/Mythic cards
+2. **<img src="https://wizarding.cards/assets/emojis/largecache.png" alt="Large Cache" class="hp-emoji"> Large Resources Cache** - Bulk resources for multiple crafts
+3. **<img src="https://wizarding.cards/assets/emojis/rapidbountydraught.png" alt="Rapid Bounty Draught" class="hp-emoji"> Rapid Bounty Draught** - Stack multiple uses for maximum cards per claim
 
 ## Galleon Management
 
@@ -161,9 +165,10 @@ Most items activate automatically when conditions are met (e.g., potions apply o
 ### How Much to Save
 
 **General Guidelines:**
-- **Emergency Fund:** <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 300-500 (for Rapid Reclamation Remedy to protect streaks)
-- **Regular Shopping:** <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 500-1,000 (for Resource Caches and Basic Frugality Flask)
-- **Major Purchases:** <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 2,500+ (for Advanced Frugality Flask)
+
+- **Emergency Fund:** <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 300-500 (for <img src="https://wizarding.cards/assets/emojis/rapidreclamationremedy.png" alt="Rapid Reclamation Remedy" class="hp-emoji"> Rapid Reclamation Remedy to protect streaks)
+- **Regular Shopping:** <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 500-1,000 (for Resource Caches and <img src="https://wizarding.cards/assets/emojis/basicfrugalityflask.png" alt="Basic Frugality Flask" class="hp-emoji"> Basic Frugality Flask)
+- **Major Purchases:** <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 2,500+ (for <img src="https://wizarding.cards/assets/emojis/advancedfrugalityflask.png" alt="Advanced Frugality Flask" class="hp-emoji"> Advanced Frugality Flask)
 
 !!! tip "Save for Events!"
     Set aside Galleons before seasonal events - they often have limited-time items worth buying!
@@ -183,11 +188,13 @@ Watch for announcements in the support server!
 Some effects stack, others don't:
 
 **Do Stack:**
+
 - Multiple Rapid Bounty Draught uses (each use adds 5 more cards per claim)
 - Frugality Flasks work independently (Basic for Common/Uncommon/Rare, Advanced for Legendary/Mythic)
 - Potions + High Streaks (multiplicative benefits!)
 
 **Don't Stack:**
+
 - Multiple Frugality Flasks of the same type (only one active at a time)
 
 ## Common Mistakes to Avoid
@@ -227,15 +234,11 @@ A: No, all shop purchases are final.
 
 **Q: Do items expire?**
 
-A: Most items don't expire, but their effects have limited uses (e.g., "3 claims").
+A: Items work in two ways: some items expire after a time duration, while others have limited uses that decrease each time they're activated. Once an item's duration expires or its uses reach zero, it's removed from your active items.
 
 **Q: Can I gift items to friends?**
 
 A: Not currently - items are account-bound.
-
-**Q: What's the best value purchase?**
-
-A: Rapid Reclamation Remedy is essential for streak protection. Advanced Frugality Flask is incredibly valuable when crafting Legendary/Mythic cards. Rapid Bounty Draught is great for maximising cards per claim session.
 
 **Q: Do shop prices ever change?**
 
@@ -248,6 +251,6 @@ A: Some items like Time Turner, House Colours, and Vault Key are available via D
 ---
 
 <div class="hp-card" markdown="1">
-**Shop Smart!** The best purchases enhance your natural gameplay rather than replacing it. Use items strategically to maximise your progress! Keep an emergency fund of Rapid Reclamation Remedy for streak protection, and save up for Advanced Frugality Flask when you're ready to craft expensive cards.
+**Shop Smart!** The best purchases enhance your natural gameplay rather than replacing it. Use items strategically to maximise your progress! Keep an emergency fund of <img src="https://wizarding.cards/assets/emojis/rapidreclamationremedy.png" alt="Rapid Reclamation Remedy" class="hp-emoji"> Rapid Reclamation Remedy for streak protection, and save up for <img src="https://wizarding.cards/assets/emojis/advancedfrugalityflask.png" alt="Advanced Frugality Flask" class="hp-emoji"> Advanced Frugality Flask when you're ready to craft expensive cards.
 </div>
 
