@@ -8,11 +8,7 @@ The `/daily` command shows your daily quests - special challenges that reset eve
 
 ## How to Use
 
-```
-/daily
-```
-
-This displays your four daily quests, their progress, and the rewards for completing all of them.
+Use `/daily` to display your four daily quests, their progress, and the rewards for completing all of them.
 
 ## Daily Quest System
 
@@ -31,6 +27,7 @@ There are four main types of daily quests:
 **Objective:** Claim a certain number of cards of a specific rarity
 
 **Variants:**
+
 - Claim 3/5/7/10 Common Cards
 - Claim 2/3/4/5 Uncommon Cards
 - Claim 1/2/3 Rare Cards
@@ -38,6 +35,7 @@ There are four main types of daily quests:
 - Claim 1 Mythic Card
 
 **Strategy:**
+
 - Happens naturally through `/claim`
 - Just play normally!
 - Higher rarity quests may take multiple days
@@ -47,11 +45,13 @@ There are four main types of daily quests:
 **Objective:** Craft a certain number of cards of a specific rarity
 
 **Variants:**
+
 - Craft 2/3/4 Common Cards
 - Craft 1/2/3 Uncommon Cards
 - Craft 1/2 Rare Cards
 
 **Strategy:**
+
 - Save your resources for craft quest days
 - Focus on cheaper crafts when possible
 - Check if you have enough resources before committing
@@ -63,12 +63,14 @@ There are four main types of daily quests:
 **Objective:** Disenchant a certain number of cards of a specific rarity
 
 **Variants:**
+
 - Disenchant 2/4/6 Common Cards
 - Disenchant 2/3/4 Uncommon Cards
 - Disenchant 1/2 Rare Cards
 - Disenchant 1 Legendary Card
 
 **Strategy:**
+
 - Wait until you see this quest before mass disenchanting
 - Focus on the specific rarity requested
 - Make sure you keep at least one copy of each card!
@@ -80,9 +82,11 @@ There are four main types of daily quests:
 **Objective:** Vote on a certain number of bot listing sites
 
 **Variants:**
+
 - Vote on 1/2/3/4 Voting Sites
 
 **Strategy:**
+
 - Easiest quest to complete!
 - Use `/vote` to get links
 - Each site has a 12-hour cooldown
@@ -133,22 +137,19 @@ Use this to plan your day!
 
 Each day's quests are randomly selected from available quest types:
 
-- **1 Claim Quest** (Common, Uncommon, or Rare)
-- **1 Craft Quest** (Common, Uncommon, or Rare)
-- **1 Disenchant Quest** (Common, Uncommon, or Rare)
-- **1 Vote Quest** (1-4 sites)
-
-**OR**
-
-- **3 Activity Quests** (Claim/Craft/Disenchant mix)
-- **1 Vote Quest** (50% chance, otherwise another activity quest)
+- Up to **2 quests of each type** (Claim, Craft, Disenchant, Vote)
+- Each quest has a **unique (type, rarity) combination**
+- **Vote quests** have a 50% chance of appearing
+- Total of **4 quests** per day
 
 ### Quest Difficulty
 
 Quests are balanced to be completable in one day:
 
-- **Easy:** Vote quests, low-count claim quests
+- **Easy:** <img src="https://wizarding.cards/assets/emojis/vote.png" alt="Vote" class="hp-emoji"> Vote quests, low-count claim quests
+
 - **Medium:** Uncommon crafts, rare disenchants
+
 - **Hard:** High-count legendary claims, multiple crafts
 
 ## Completion Strategies
@@ -156,37 +157,48 @@ Quests are balanced to be completable in one day:
 ### Morning Routine
 
 1. **Check quests:** See what you need to do today
-2. **Vote immediately:** Easiest quest to complete
+
+2. **<img src="https://wizarding.cards/assets/emojis/vote.png" alt="Vote" class="hp-emoji"> Vote immediately:** Easiest quest to complete
+
 3. **Plan your day:** Know what you need to focus on
 
 ### During the Day
 
-4. **Claim regularly:** Works toward claim quests naturally
+4. **<img src="https://wizarding.cards/assets/emojis/card.png" alt="Card" class="hp-emoji"> Claim regularly:** Works toward claim quests naturally
+
 5. **Save crafts/disenchants:** Wait to see what's needed
+
 6. **Avoid wasting resources:** Don't craft/disenchant randomly
 
 ### Evening Check
 
 7. **Review progress:** See what's left
+
 8. **Complete remaining quests:** Before midnight!
+
 9. **Claim rewards:** All 4 quests completed!
 
 ## Quest Progress Tracking
 
 ### Visual Indicators
 
-- **<img src="https://wizarding.cards/assets/emojis/check.png" alt="Check" class="hp-emoji"> Green Check:** Quest completed
-- **✗ Red X:** Quest not completed
-- **Progress Counter:** Shows current/total (e.g., "2/5")
+- **<img src="https://wizarding.cards/assets/emojis/owned.png" alt="Owned" class="hp-emoji"> Green Diamond:** Quest completed
+
+- **<img src="https://wizarding.cards/assets/emojis/notowned.png" alt="Not Owned" class="hp-emoji"> Red Diamond:** Quest not completed
+
+- **Progress Counter:** Shows <img src="https://wizarding.cards/assets/emojis/quest.png" alt="Quest" class="hp-emoji"> `current/target` (e.g., "2/5")
 
 ### Real-Time Updates
 
 Quest progress updates instantly when you:
 
-- Claim a card
-- Craft a card
-- Disenchant a card
-- Vote on a site
+- <img src="https://wizarding.cards/assets/emojis/card.png" alt="Card" class="hp-emoji"> Claim a card
+
+- <img src="https://wizarding.cards/assets/emojis/craft.png" alt="Craft" class="hp-emoji"> Craft a card
+
+- <img src="https://wizarding.cards/assets/emojis/disenchant.png" alt="Disenchant" class="hp-emoji"> Disenchant a card
+
+- <img src="https://wizarding.cards/assets/emojis/vote.png" alt="Vote" class="hp-emoji"> Vote on a site
 
 Check `/daily` anytime to see your progress!
 
@@ -204,10 +216,14 @@ Check `/daily` anytime to see your progress!
 
 ## Common Mistakes to Avoid
 
-❌ **Forgetting to Check Quests** - You might waste actions on wrong rarities  
-❌ **Leaving Quests Until Last Minute** - Technical issues could prevent completion  
-❌ **Disenchanting Before Checking** - Might need those cards for another quest  
-❌ **Ignoring Vote Quest** - Easiest free Galleons and XP!  
+❌ **Forgetting to Check Quests** - You might waste actions on wrong rarities
+
+❌ **Leaving Quests Until Last Minute** - Technical issues could prevent completion
+
+❌ **Disenchanting Before Checking** - Might need those cards for another quest
+
+❌ **Ignoring Vote Quest** - Easiest free <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> Galleons and <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> XP!
+
 ❌ **Not Planning Ahead** - Know what you need before you start  
 
 ## Special Considerations
@@ -216,26 +232,24 @@ Check `/daily` anytime to see your progress!
 
 During events (Halloween, Christmas), special event quests may appear:
 
-- Use event currency
+- Use event currency (<img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> Sweets, <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> Crackers, <img src="https://wizarding.cards/assets/emojis/coal.png" alt="Coal" class="hp-emoji"> Coal)
+
 - Different requirements
+
 - Bonus rewards
+
 - Theme-appropriate tasks
 
 ### Multiplier Events
 
 When Global Vault Keys are active:
 
-- All quest rewards are multiplied
+- All quest rewards (<img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> Galleons and <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> XP) are multiplied
+
 - Worth prioritising quest completion
+
 - Announced in support server
 
-### Quest Refresh Items
-
-**Quest Refresher** (shop item):
-- Rerolls your daily quests
-- Costs 500 Galleons
-- Use if you get impossible/inconvenient quests
-- Limited uses per day
 
 ## Troubleshooting
 
@@ -265,7 +279,7 @@ When Global Vault Keys are active:
 A: It's okay! Missing one day won't hurt your long-term progress. New quests tomorrow!
 
 **Q: Can I skip a quest I don't want to do?**  
-A: You can buy a Quest Refresher from the shop to reroll your quests, but there's a limit.
+A: No, quests cannot be skipped or rerolled. However, if you can't complete a quest, new ones will be available tomorrow!
 
 **Q: Do quests carry over to the next day?**  
 A: No, incomplete quests are replaced at midnight with new ones.
