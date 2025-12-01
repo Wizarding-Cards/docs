@@ -8,16 +8,7 @@ The `/disenchant` command allows you to convert unwanted or duplicate cards into
 
 ## How to Use
 
-```
-/disenchant
-```
-
-When you use this command, you'll see:
-
-1. A list of cards in your collection
-2. The number of copies you have of each card
-3. How many resources you'll get for disenchanting
-4. An interface to select which card to disenchant
+Simply type `/disenchant` in any channel where the bot is present. The bot will show you a list of all cards available. When you select a card, it will display the number of copies you have (if any) and allow you to choose how many to disenchant.
 
 ## What is Disenchanting?
 
@@ -32,19 +23,23 @@ Disenchanting is the process of **breaking down cards** into crafting resources.
 
 ## Resource Yields
 
-Different rarity cards give different amounts and types of resources:
+Different rarity cards give different amounts and types of resources. Resource yields are **random** and vary based on the card's rarity:
 
-| Card Rarity | Resources Gained | Example |
-|-------------|------------------|---------|
-| **Common** | 1 Common Resource | Disenchant 3 commons = Craft 1 common |
-| **Uncommon** | 2 Uncommon Resources | Disenchant 3 uncommons = Craft 1 uncommon (needs 5) |
-| **Rare** | 3 Rare Resources | Disenchant 3 rares = Craft 1 rare (needs 8) |
-| **Legendary** | 6 Legendary Resources | Disenchant 3 legendaries = Craft 1 legendary (needs 15) |
-| **Mythic** | 12 Mythic Resources | Disenchant 3 mythics = Craft 1 mythic (needs 30) |
+| Card Rarity | Typical Resources | Notes |
+|-------------|-------------------|-------|
+| **Common** | Random amount of Common Resources | Resources are randomly generated |
+| **Uncommon** | Random amount of Uncommon Resources | May also include some Common Resources |
+| **Rare** | Random amount of Rare Resources | May include lower rarity resources |
+| **Legendary** | Random amount of Legendary Resources | May include lower rarity resources |
+| **Mythic** | Random amount of Mythic Resources | May include lower rarity resources |
 
 !!! note "Variant Bonuses"
-    - **Shiny (<img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji">) cards:** Give 1.5x resources
-    - **Gold (<img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji">) cards:** Give 2x resources
+    - **Shiny (<img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji">) cards:** Give **3× resources** (multiplied by shiny chance)
+    - **Gold (<img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji">) cards:** Give **5× resources** (multiplied by gold chance)
+
+!!! warning "Disenchant Failure Chances"
+    - **Cursed cards:** Have a **50% chance of failure** - the card disintegrates and you get no resources
+    - **Gold cards:** Have a **25% chance of failure** - the card disintegrates and you get no resources
 
 ## Disenchanting Process
 
@@ -98,10 +93,14 @@ Priority order for disenchanting:
 
 !!! warning "Don't Disenchant These!"
     - Your only copy of any card
-    - Shiny (<img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji">) variants - they're rare and collectible
-    - Gold (<img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji">) variants - even rarer!
     - Cards needed for achievements
     - Cards you personally like
+
+!!! note "Shiny and Gold Variants"
+    Shiny and Gold variants give excellent rewards (3× and 5× respectively), but consider:
+    - **Shiny variants:** Give 3× resources - great for disenchanting if you have duplicates
+    - **Gold variants:** Give 5× resources but have a 25% failure chance - weigh the risk vs reward
+    - If you're a collector, you may want to keep variants even if they're duplicates
 
 ## Resource Planning
 
@@ -117,21 +116,18 @@ Needs: 15 Legendary Resources
 Current: 4 Legendary Resources
 Needed: 11 more
 
-Strategy: Disenchant 2 duplicate legendary cards
-(2 cards × 6 resources = 12 resources total)
+Strategy: Disenchant 2-3 duplicate legendary cards
+(Resource yields are random, so you may need multiple cards)
 ```
 
 ### Resource Conversion Ratios
 
-Understanding the math helps plan your disenchanting:
+Since resource yields are random, exact conversion ratios vary. However, you can generally expect:
 
-| Card Rarity | Disenchant → Craft Ratio |
-|-------------|-------------------------|
-| **Common** | 3 cards → 1 card (3 needed, get 1 each) |
-| **Uncommon** | ~3 cards → 1 card (5 needed, get 2 each) |
-| **Rare** | ~3 cards → 1 card (8 needed, get 3 each) |
-| **Legendary** | ~3 cards → 1 card (15 needed, get 6 each) |
-| **Mythic** | ~3 cards → 1 card (30 needed, get 12 each) |
+- Higher rarity cards give more and better resources
+- Shiny variants give 3× resources, making them valuable to disenchant
+- Gold variants give 5× resources, but have a 25% failure risk
+- Resources may include lower rarity resources in addition to the card's rarity
 
 ## Daily Quest Integration
 
@@ -147,19 +143,35 @@ Disenchanting counts toward daily quests:
 - Disenchant the rarity specified in the quest
 - Save your disenchants for quest days when possible
 
-## XP Rewards
+## Rewards
 
-Disenchanting also awards XP:
+Disenchanting awards both Galleons and XP based on the card's rarity and variant:
 
-| Card Rarity | XP Reward |
-|-------------|-----------|
-| **Common** | 10 XP |
-| **Uncommon** | 15 XP |
-| **Rare** | 25 XP |
-| **Legendary** | 50 XP |
-| **Mythic** | 100 XP |
+### Galleon Rewards
 
-Disenchanting multiple cards is a good way to grind XP!
+| Card Rarity | Base Galleons | With Shiny | With Gold |
+|-------------|---------------|------------|-----------|
+| **Common** | 3 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 9 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 15 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
+| **Uncommon** | 6 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 18 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 30 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
+| **Rare** | 9 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 27 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 45 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
+| **Legendary** | 12 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 36 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 60 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
+| **Mythic** | 15 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 45 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 75 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
+
+### XP Rewards
+
+| Card Rarity | Base XP | With Shiny | With Gold |
+|-------------|---------|------------|-----------|
+| **Common** | 75 XP | 225 XP | 375 XP |
+| **Uncommon** | 150 XP | 450 XP | 750 XP |
+| **Rare** | 225 XP | 675 XP | 1,125 XP |
+| **Legendary** | 300 XP | 900 XP | 1,500 XP |
+| **Mythic** | 375 XP | 1,125 XP | 1,875 XP |
+
+!!! note "Reward Calculation"
+    Rewards are calculated as: **Base (3 Galleons, 75 XP) × Rarity Multiplier × Variant Multiplier (Shiny=3×, Gold=5×) × Global Multiplier (if active) × Successful Disenchants**
+
+!!! note "Failed Disenchants"
+    If a disenchant fails (cursed or gold cards), you receive **no rewards** for that card - it simply disintegrates.
 
 ## Advanced Strategies
 
@@ -195,11 +207,12 @@ During special events:
 
 ## Common Mistakes to Avoid
 
-❌ **Disenchanting Your Only Copy** - Always keep at least one!  
-❌ **Disenchanting Shiny/Gold Variants** - These are rare collectibles  
-❌ **Mass Disenchanting Without Planning** - Know what you'll craft first  
-❌ **Ignoring Quest Requirements** - Check daily quests before disenchanting  
-❌ **Hoarding Too Many Duplicates** - Use those resources!  
+- ❌ **Disenchanting Your Only Copy** - Always keep at least one!
+- ❌ **Disenchanting Shiny/Gold Variants Without Understanding** - They give great rewards but gold has failure risk
+- ❌ **Mass Disenchanting Without Planning** - Know what you'll craft first
+- ❌ **Ignoring Quest Requirements** - Check daily quests before disenchanting
+- ❌ **Hoarding Too Many Duplicates** - Use those resources!
+- ❌ **Not Considering Failure Chances** - Cursed (50%) and Gold (25%) cards can fail
 
 ## Viewing Disenchant Values
 
@@ -214,29 +227,25 @@ To see what resources a card will give:
 
 !!! tip "Efficient Disenchanting"
     **Best Practices:**
-    
+
     1. **Do Monthly Cleanups** - Disenchant duplicates regularly
     2. **Keep a Buffer** - Maintain 2-3 copies of commons/uncommons
     3. **Focus on Commons First** - They accumulate fastest
     4. **Save Rares** - Only disenchant when you have 3+ copies
-    5. **Never Disenchant Variants** - Shiny/Gold cards are collectibles
+    5. **Consider Variants Carefully** - Shiny/Gold give great rewards but may be collectibles you want to keep
 
 ## Undo Disenchanting
 
 !!! danger "No Undo!"
     Disenchanting is **permanent**. Once you disenchant a card, you cannot get it back without claiming or crafting it again.
-    
+
     Always double-check before confirming!
 
 ## Troubleshooting
 
 ### "You don't have any copies of this card"
-- **Cause:** Card not in your collection or already disenchanted your last copy
+- **Cause:** Card not in your collection or you've disenchanted all copies
 - **Solution:** You need to claim or craft the card first
-
-### "Cannot disenchant your only copy"
-- **Cause:** Bot protection to prevent accidental collection loss
-- **Solution:** This is working as intended - keep at least one!
 
 ### "Disenchant command not responding"
 - **Cause:** Temporary bot issue
@@ -250,26 +259,33 @@ To see what resources a card will give:
 
 ## Frequently Asked Questions
 
-**Q: Can I get a card back after disenchanting?**  
+**Q: Can I get a card back after disenchanting?**
+
 A: No, disenchanting is permanent. You'd need to claim or craft it again.
 
-**Q: Should I disenchant all my duplicate commons?**  
+**Q: Should I disenchant all my duplicate commons?**
+
 A: Keep 2-3 copies as a buffer, disenchant the rest for resources.
 
-**Q: Do Shiny cards give more resources?**  
-A: Yes! Shiny cards give 1.5x resources, Gold cards give 2x resources.
+**Q: Do Shiny cards give more resources?**
 
-**Q: Is there a cooldown on disenchanting?**  
+A: Yes! Shiny cards give **3× resources**, Gold cards give **5× resources** (but gold has a 25% failure chance).
+
+**Q: Is there a cooldown on disenchanting?**
+
 A: No, you can disenchant as many cards as you want instantly.
 
-**Q: What if I accidentally disenchant a card I wanted?**  
+**Q: What if I accidentally disenchant a card I wanted?**
+
 A: Unfortunately, you'll need to claim or craft it again. Always double-check!
 
-**Q: Can I disenchant Cursed cards?**  
-A: Yes, though Cursed cards are rare and special - consider keeping them.
+**Q: Can I disenchant Cursed cards?**
 
-**Q: Do disenchants count for statistics?**  
-A: Yes! Your total disenchants are tracked in your profile and leaderboards.
+A: Yes, but Cursed cards have a **50% failure chance** - they may disintegrate without giving resources. Consider keeping them.
+
+**Q: Do disenchants count for statistics?**
+
+A: Yes! Your total disenchants are tracked in your profile and leaderboards. The total count includes all disenchant attempts, including failed ones (cursed/gold cards that disintegrate).
 
 ---
 
