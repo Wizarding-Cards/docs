@@ -62,7 +62,7 @@ Wizarding Cards celebrates special times of the year with **seasonal events** fe
 
 ### Sweet Currency
 
-During Halloween, you earn **Sweets** <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> alongside Galleons:
+During Halloween, you earn <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> **Sweets** alongside Galleons:
 
 **How to Earn:**
 - Every claim awards Sweets (equal to Galleon amount)

@@ -23,7 +23,7 @@ This displays a list of voting sites with buttons to visit each one.
 ### Player Benefits
 
 **Immediate Rewards:**
-- **<img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 10 Galleons** per vote
+- **<img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 10** Galleons per vote
 - **<img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 200 XP** per vote
 - Counts toward "Vote Collector" daily quests
 
@@ -87,9 +87,9 @@ Each site has a **12-hour cooldown**:
 The bot tracks when you last voted on each site:
 
 ```
-Top.gg: <img src="https://wizarding.cards/assets/emojis/check.png" alt="Check" class="hp-emoji"> Available now!
-Discord Bot List: <img src="https://wizarding.cards/assets/emojis/timeturner.png" alt="Timeturner" class="hp-emoji"> Available in 3 hours
-Discords.com: <img src="https://wizarding.cards/assets/emojis/timeturner.png" alt="Timeturner" class="hp-emoji"> Available in 8 hours
+<img src="https://wizarding.cards/assets/emojis/check.png" alt="Check" class="hp-emoji"> Top.gg: Available now!
+<img src="https://wizarding.cards/assets/emojis/timeturner.png" alt="Timeturner" class="hp-emoji"> Discord Bot List: Available in 3 hours
+<img src="https://wizarding.cards/assets/emojis/timeturner.png" alt="Timeturner" class="hp-emoji"> Discords.com: Available in 8 hours
 ```
 
 ## Voting Strategy
@@ -130,7 +130,7 @@ You can opt-in to receive DM reminders when votes are available:
 
 1. Use `/profile`
 2. Click **Settings**
-3. Toggle **Voting Reminders** to <img src="https://wizarding.cards/assets/emojis/check.png" alt="Check" class="hp-emoji"> Enabled
+3. Toggle **Voting Reminders** to <img src="https://wizarding.cards/assets/emojis/check.png" alt="Check" class="hp-emoji"> **Enabled**
 
 The bot will DM you when your vote cooldown expires!
 
@@ -215,12 +215,12 @@ View in your profile's extended statistics.
 
 | Benefit | Value |
 |---------|-------|
-| **Galleons per Vote** | 10 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
+| **Galleons per Vote** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 10 |
 | **XP per Vote** | 200 <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> |
 | **Votes per Day** | Up to 8 (4 sites × 2 times) |
-| **Daily Potential** | 80 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> + 1,600 <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> |
-| **Weekly Potential** | 560 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> + 11,200 <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> |
-| **Monthly Potential** | ~2,400 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> + ~48,000 <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> |
+| **Daily Potential** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 80 + <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 1,600 |
+| **Weekly Potential** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 560 + <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> 11,200 |
+| **Monthly Potential** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> ~2,400 + <img src="https://wizarding.cards/assets/emojis/xp.png" alt="Xp" class="hp-emoji"> ~48,000 |
 
 That's enough Galleons to buy:
 

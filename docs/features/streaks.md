@@ -160,7 +160,7 @@ Your Galleon rewards are multiplied:
 
 ### Essential Tools
 
-**1. Multiple Reminders** <img src="https://wizarding.cards/assets/emojis/timeturner.png" alt="Timeturner" class="hp-emoji">
+<img src="https://wizarding.cards/assets/emojis/timeturner.png" alt="Timeturner" class="hp-emoji"> **1. Multiple Reminders**
 
 Set reminders at:
 - 6 hours after claim (buffer time)
@@ -173,7 +173,7 @@ Use:
 - Calendar notifications
 - Smart watch alerts
 
-**2. Time Turners** <img src="https://wizarding.cards/assets/emojis/timeturner.png" alt="Timeturner" class="hp-emoji">
+<img src="https://wizarding.cards/assets/emojis/timeturner.png" alt="Timeturner" class="hp-emoji"> **2. Time Turners**
 
 - Keep 2-3 in inventory always
 - Cost 250 Galleons each
@@ -195,7 +195,7 @@ Buy from: `/shop`
 6 AM: Wake up, still have 2 hours (regular) or 10 hours (Auror)
 ```
 
-**4. Auror Subscription** <img src="https://wizarding.cards/assets/emojis/gem.png" alt="Gem" class="hp-emoji">
+<img src="https://wizarding.cards/assets/emojis/gem.png" alt="Gem" class="hp-emoji"> **4. Auror Subscription**
 
 The 12-hour window makes streak maintenance MUCH easier:
 
@@ -292,7 +292,7 @@ Your max streak is permanently recorded:
 
 If you do lose your streak:
 
-**Don't Panic!** <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji">
+<img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> **Don't Panic!**
 
 1. **It Happens** - Even to the best players
 2. **Start Rebuilding** - Every streak starts at 1

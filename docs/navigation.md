@@ -78,20 +78,21 @@ During events, additional currencies appear:
 
 | Event | Currency | Icon |
 |-------|----------|------|
-| Halloween <img src="https://wizarding.cards/assets/emojis/halloween.png" alt="Halloween" class="hp-emoji"> | Sweets | <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> |
-| Christmas <img src="https://wizarding.cards/assets/emojis/christmas.png" alt="Christmas" class="hp-emoji"> | Wizard Crackers | <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> |
-| Christmas <img src="https://wizarding.cards/assets/emojis/christmas.png" alt="Christmas" class="hp-emoji"> | Lumps of Coal | <img src="https://wizarding.cards/assets/emojis/coal.png" alt="Coal" class="hp-emoji"> |
+| <img src="https://wizarding.cards/assets/emojis/halloween.png" alt="Halloween" class="hp-emoji"> Halloween | Sweets | <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> |
+| <img src="https://wizarding.cards/assets/emojis/christmas.png" alt="Christmas" class="hp-emoji"> Christmas | Wizard Crackers | <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> |
+| <img src="https://wizarding.cards/assets/emojis/christmas.png" alt="Christmas" class="hp-emoji"> Christmas | Lumps of Coal | <img src="https://wizarding.cards/assets/emojis/coal.png" alt="Coal" class="hp-emoji"> |
 
 ## Shop Interface
 
-### Shop Navigation
+### Shop-Specific Elements
 
-The shop uses pagination with buttons:
+The shop interface includes:
 
-- **<img src="https://wizarding.cards/assets/emojis/leftarrow.png" alt="Left Arrow" class="hp-emoji"> Left Arrow** - Previous page
-- **<img src="https://wizarding.cards/assets/emojis/rightarrow.png" alt="Right Arrow" class="hp-emoji"> Right Arrow** - Next page
 - **<img src="https://wizarding.cards/assets/emojis/rightarrow.png" alt="Down Arrow" class="hp-emoji hp-emoji-rotate-down"> Item Dropdown** - Select item to purchase
 - **❌ Close** - Exit the shop
+
+!!! note "Pagination in Shop"
+    The shop uses the same pagination buttons as other interfaces. See the [Pagination Buttons](#pagination-buttons) section below for details.
 
 ### Item Display Format
 
@@ -174,15 +175,15 @@ Throughout the bot, you'll see these buttons:
 
 ### Pagination Buttons
 
-For multi-page content:
+Pagination buttons are used throughout the bot for navigating multi-page content, including the shop, collection, and leaderboards:
 
 | Button | Function |
 |--------|----------|
-| <img src="https://wizarding.cards/assets/emojis/skip_back.png" alt="Skip_back" class="hp-emoji"> | Skip back 10 pages |
-| <img src="https://wizarding.cards/assets/emojis/prev.png" alt="Prev" class="hp-emoji"> | Previous page |
-| <img src="https://wizarding.cards/assets/emojis/search.png" alt="Search" class="hp-emoji"> | Search (in collection) |
-| <img src="https://wizarding.cards/assets/emojis/next.png" alt="Next" class="hp-emoji"> | Next page |
-| <img src="https://wizarding.cards/assets/emojis/skip_forward.png" alt="Skip_forward" class="hp-emoji"> | Skip forward 10 pages |
+| <img src="https://wizarding.cards/assets/emojis/leftarrow10.png" alt="Left Arrow 10" class="hp-emoji"> | Skip back 10 pages |
+| <img src="https://wizarding.cards/assets/emojis/leftarrow.png" alt="Left Arrow" class="hp-emoji"> | Previous page |
+| <img src="https://wizarding.cards/assets/emojis/magnifyingglass.png" alt="Magnifying Glass" class="hp-emoji"> | Search (in collection view) |
+| <img src="https://wizarding.cards/assets/emojis/rightarrow.png" alt="Right Arrow" class="hp-emoji"> | Next page |
+| <img src="https://wizarding.cards/assets/emojis/rightarrow10.png" alt="Right Arrow 10" class="hp-emoji"> | Skip forward 10 pages |
 
 ## Card Display Format
 
@@ -197,7 +198,7 @@ When you claim a card, it shows:
 - **Rarity Name** - Common, Uncommon, Rare, Legendary, Mythic, Cursed
 - **Copy Count** - How many you have total
 - **Rewards Section** - Galleons, XP, and streak info
-- **Special Variants** - <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> for Shiny, <img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"> for Gold
+- **Special Variants** - <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> Shiny, <img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"> Gold
 
 ## Rarity Colour Coding
 
@@ -208,13 +209,13 @@ While Discord doesn't show colours in the same way, rarities are indicated by:
 | <span class="hp-rarity-common" markdown="1">**Common**</span> | No special marking | ★ |
 | <span class="hp-rarity-uncommon" markdown="1">**Uncommon**</span> | No special marking | ★★ |
 | <span class="hp-rarity-rare" markdown="1">**Rare**</span> | No special marking | ★★★ |
-| <span class="hp-rarity-legendary" markdown="1">**Legendary**</span> | Can be <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"><span class="hp-variant-shiny" markdown="1">Shiny</span> | ★★★★ |
-| <span class="hp-rarity-mythic" markdown="1">**Mythic**</span> | Can be <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"><span class="hp-variant-shiny" markdown="1">Shiny</span> or <img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"><span class="hp-variant-gold" markdown="1">Gold</span> | ★★★★★ |
+| <span class="hp-rarity-legendary" markdown="1">**Legendary**</span> | Can be <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> <span class="hp-variant-shiny" markdown="1">Shiny</span> | ★★★★ |
+| <span class="hp-rarity-mythic" markdown="1">**Mythic**</span> | Can be <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> <span class="hp-variant-shiny" markdown="1">Shiny</span> or <img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"> <span class="hp-variant-gold" markdown="1">Gold</span> | ★★★★★ |
 | <span class="hp-rarity-cursed" markdown="1">**Cursed**</span> | Special indicator | ★★★★★★ |
 
 ## Search Functionality
 
-In your collection, use the <img src="https://wizarding.cards/assets/emojis/search.png" alt="Search" class="hp-emoji"> search button to find specific cards:
+In your collection, use the <img src="https://wizarding.cards/assets/emojis/magnifyingglass.png" alt="Magnifying Glass" class="hp-emoji"> search button to find specific cards:
 
 1. Click the search button
 2. Type part of the card name
@@ -252,7 +253,7 @@ Access settings via `/profile` → **Settings**:
 ### Viewing A Specific Card
 1. Use `/view` to search for and view a specific card
 2. Or use `/profile` → **Collection**
-3. Navigate pages or use <img src="https://wizarding.cards/assets/emojis/magnifyingglass.png" alt="Search" class="hp-emoji"> search
+3. Navigate pages or use <img src="https://wizarding.cards/assets/emojis/magnifyingglass.png" alt="Magnifying Glass" class="hp-emoji"> search
 4. Find your card
 
 ### Checking Quest Progress

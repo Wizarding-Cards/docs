@@ -146,12 +146,12 @@ Also available during Christmas season.
 
 ### Coal vs Crackers
 
-**Wizard Crackers** <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji">:
+<img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> **Wizard Crackers**:
 - Premium Christmas items
 - Better shop offerings
 - More valuable
 
-**Lumps of Coal** <img src="https://wizarding.cards/assets/emojis/coal.png" alt="Coal" class="hp-emoji">:
+<img src="https://wizarding.cards/assets/emojis/coal.png" alt="Coal" class="hp-emoji"> **Lumps of Coal**:
 - Alternative currency
 - Cheaper items
 - Thematic fun
@@ -203,12 +203,11 @@ Resources are used to craft specific cards.
 
 ### Resource Types
 
-- **Common Resources** <img src="https://wizarding.cards/assets/emojis/resource.png" alt="Resource" class="hp-emoji"> - Craft Common cards
-- **Uncommon Resources** <img src="https://wizarding.cards/assets/emojis/resource.png" alt="Resource" class="hp-emoji"> - Craft Uncommon cards
-- **Rare Resources** <img src="https://wizarding.cards/assets/emojis/resource.png" alt="Resource" class="hp-emoji"> - Craft Rare cards
-- **Legendary Resources** <img src="https://wizarding.cards/assets/emojis/resource.png" alt="Resource" class="hp-emoji"> - Craft Legendary cards
-- **Mythic Resources** <img src="https://wizarding.cards/assets/emojis/resource.png" alt="Resource" class="hp-emoji"> - Craft Mythic cards
-- **Cursed Resources** <img src="https://wizarding.cards/assets/emojis/resource.png" alt="Resource" class="hp-emoji"> - Craft Cursed cards (rare)
+- <img src="https://wizarding.cards/assets/emojis/resource.png" alt="Resource" class="hp-emoji"> **Common Resources** - Craft Common cards
+- <img src="https://wizarding.cards/assets/emojis/resource.png" alt="Resource" class="hp-emoji"> **Uncommon Resources** - Craft Uncommon cards
+- <img src="https://wizarding.cards/assets/emojis/resource.png" alt="Resource" class="hp-emoji"> **Rare Resources** - Craft Rare cards
+- <img src="https://wizarding.cards/assets/emojis/resource.png" alt="Resource" class="hp-emoji"> **Legendary Resources** - Craft Legendary cards
+- <img src="https://wizarding.cards/assets/emojis/resource.png" alt="Resource" class="hp-emoji"> **Mythic Resources** - Craft Mythic cards
 
 ### How to Get Resources
 

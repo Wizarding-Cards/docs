@@ -100,8 +100,8 @@ Cards come in six different rarities:
 | <span class="hp-rarity-common" markdown="1">**Common**</span> | Basic cards, easy to find | High | None |
 | <span class="hp-rarity-uncommon" markdown="1">**Uncommon**</span> | Slightly rarer | Medium | None |
 | <span class="hp-rarity-rare" markdown="1">**Rare**</span> | Takes effort to collect | Low | None |
-| <span class="hp-rarity-legendary" markdown="1">**Legendary**</span> | Very difficult to obtain | Very Low | Can be <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"><span class="hp-variant-shiny" markdown="1">Shiny</span> |
-| <span class="hp-rarity-mythic" markdown="1">**Mythic**</span> | The rarest cards | Extremely Low | Can be <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"><span class="hp-variant-shiny" markdown="1">Shiny</span> or <img src="https://wizarding.cards/assets/emojis/golden.png" alt="Gold" class="hp-emoji"><span class="hp-variant-gold" markdown="1">Gold</span> |
+| <span class="hp-rarity-legendary" markdown="1">**Legendary**</span> | Very difficult to obtain | Very Low | Can be <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> <span class="hp-variant-shiny" markdown="1">Shiny</span> |
+| <span class="hp-rarity-mythic" markdown="1">**Mythic**</span> | The rarest cards | Extremely Low | Can be <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> <span class="hp-variant-shiny" markdown="1">Shiny</span> or <img src="https://wizarding.cards/assets/emojis/golden.png" alt="Gold" class="hp-emoji"> <span class="hp-variant-gold" markdown="1">Gold</span> |
 | <span class="hp-rarity-cursed" markdown="1">**Cursed**</span> | Extremely rare cards that cannot be crafted | Extremely Low | Unique properties |
 
 !!! warning "Shiny & Gold Variants"

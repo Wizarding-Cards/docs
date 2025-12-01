@@ -37,7 +37,7 @@ Items that modify crafting costs, reset cooldowns, or boost claims
 ## Seasonal Shop Items
 
 ### <img src="https://wizarding.cards/assets/emojis/halloween.png" alt="Halloween" class="hp-emoji"> Halloween
-Uses **Sweets** <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> currency:
+Uses <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> **Sweets** currency:
 
 | Item | Cost | Level Required | Contents |
 |------|------|----------------|----------|
@@ -47,7 +47,7 @@ Uses **Sweets** <img src="https://wizarding.cards/assets/emojis/sweets.png" alt=
 | **Cursed Cauldron Crate** | 1,500 <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> | 15 | Legendary crate overflowing with powerful rewards |
 
 ### <img src="https://wizarding.cards/assets/emojis/christmas.png" alt="Christmas" class="hp-emoji"> Christmas
-Uses **Wizard Crackers** <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> currency:
+Uses <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> **Wizard Crackers** currency:
 
 | Item | Cost | Level Required | Contents |
 |------|------|----------------|----------|

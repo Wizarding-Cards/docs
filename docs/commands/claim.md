@@ -95,7 +95,7 @@ The system rolls for rarities from highest to lowest. Each rarity has a "1 in X"
     The system checks rarities from highest to lowest. If you fail all higher rarity rolls, you're guaranteed a Common card. Streaks improve odds for Legendary and Mythic cards only.
 
 !!! note "Shiny & Gold Variants"
-    When you claim a Legendary or Mythic card, there's an additional small chance it will be a <span class="hp-variant-shiny" markdown="1">Shiny</span> <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> or <span class="hp-variant-gold" markdown="1">Gold</span> <img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"> variant!
+    When you claim a Legendary or Mythic card, there's an additional small chance it will be a <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> <span class="hp-variant-shiny" markdown="1">Shiny</span> or <img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"> <span class="hp-variant-gold" markdown="1">Gold</span> variant!
 
 ## Galleon Rewards
 
@@ -103,12 +103,12 @@ Galleon rewards are based on the **rarity** of the card you claim, not your stre
 
 | Rarity | Galleons |
 |--------|----------|
-| **Common** | 1 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
-| **Uncommon** | 2 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
-| **Rare** | 3 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
-| **Legendary** | 4 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
-| **Mythic** | 5 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
-| **Cursed** | 6 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
+| **Common** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 1 |
+| **Uncommon** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 2 |
+| **Rare** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 3 |
+| **Legendary** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 4 |
+| **Mythic** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 5 |
+| **Cursed** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 6 |
 
 !!! note "Global Multipliers"
     During special events (like Global Vault Keys), all Galleon rewards are multiplied. This applies to the base reward amount.

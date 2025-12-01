@@ -70,9 +70,9 @@ Your profile displays key stats:
 | **Disenchants** | Total cards you've disenchanted |
 
 Additional stats may include:
-- **Sweets** (Halloween event) <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji">
-- **Wizard Crackers** (Christmas event) <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji">  
-- **Lumps of Coal** (Christmas event) <img src="https://wizarding.cards/assets/emojis/coal.png" alt="Coal" class="hp-emoji">
+- <img src="https://wizarding.cards/assets/emojis/sweets.png" alt="Sweets" class="hp-emoji"> **Sweets** (Halloween event)
+- <img src="https://wizarding.cards/assets/emojis/crackers.png" alt="Crackers" class="hp-emoji"> **Wizard Crackers** (Christmas event)
+- <img src="https://wizarding.cards/assets/emojis/coal.png" alt="Coal" class="hp-emoji"> **Lumps of Coal** (Christmas event)
 
 ### Collection Summary
 
@@ -243,8 +243,8 @@ Each rarity tracks separately:
 For Legendary and Mythic cards:
 
 - **Regular versions** count toward base collection
-- **Shiny <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> versions** are tracked separately
-- **Gold <img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"> versions** (Mythic only) are ultra-rare
+- **<img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> Shiny versions** are tracked separately
+- **<img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"> Gold versions** (Mythic only) are ultra-rare
 
 ## Privacy Settings
 

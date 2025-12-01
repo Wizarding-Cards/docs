@@ -34,8 +34,8 @@ Different rarity cards give different amounts and types of resources. Resource y
 | **Mythic** | Random amount of Mythic Resources | May include lower rarity resources |
 
 !!! note "Variant Bonuses"
-    - **Shiny (<img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji">) cards:** Give **3× resources** (multiplied by shiny chance)
-    - **Gold (<img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji">) cards:** Give **5× resources** (multiplied by gold chance)
+    - **<img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> Shiny cards:** Give **3× resources** (multiplied by shiny chance)
+    - **<img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"> Gold cards:** Give **5× resources** (multiplied by gold chance)
 
 !!! warning "Disenchant Failure Chances"
     - **Cursed cards:** Have a **50% chance of failure** - the card disintegrates and you get no resources
@@ -151,11 +151,11 @@ Disenchanting awards both Galleons and XP based on the card's rarity and variant
 
 | Card Rarity | Base Galleons | With Shiny | With Gold |
 |-------------|---------------|------------|-----------|
-| **Common** | 3 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 9 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 15 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
-| **Uncommon** | 6 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 18 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 30 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
-| **Rare** | 9 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 27 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 45 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
-| **Legendary** | 12 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 36 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 60 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
-| **Mythic** | 15 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 45 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> | 75 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
+| **Common** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 3 | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 9 | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 15 |
+| **Uncommon** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 6 | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 18 | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 30 |
+| **Rare** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 9 | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 27 | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 45 |
+| **Legendary** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 12 | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 36 | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 60 |
+| **Mythic** | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 15 | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 45 | <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 75 |
 
 ### XP Rewards
 

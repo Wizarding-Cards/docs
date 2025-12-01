@@ -35,13 +35,13 @@ Access via:
 
 ### Card Variants
 
-**<span class="hp-variant-shiny" markdown="1">Shiny <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"></span>** (Legendary & Mythic only):
+**<img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> <span class="hp-variant-shiny" markdown="1">Shiny</span>** (Legendary & Mythic only):
 - Rare visual variants
 - Same stats, different look
 - Highly collectible
 - Cannot be crafted (must claim)
 
-**<span class="hp-variant-gold" markdown="1">Gold <img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"></span>** (Mythic only):
+**<img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"> <span class="hp-variant-gold" markdown="1">Gold</span>** (Mythic only):
 - Ultra-rare variants
 - Even rarer than Shiny
 - Ultimate collectibles

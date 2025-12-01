@@ -51,7 +51,7 @@ The amount of resources needed increases with rarity:
 
 !!! note "Getting Resources"
     Resources are obtained by disenchanting cards. Higher rarity cards give more resources!
-    
+
     [Learn about disenchanting →](disenchant.md)
 
 ## Crafting Process
@@ -70,7 +70,7 @@ The first page of your collection shows your resource inventory:
 
 ### Step 2: Find Cards to Craft
 
-In your collection, look for the <span class="hp-icon-orange" markdown="1">orange diamond <img src="https://wizarding.cards/assets/emojis/craftable.png" alt="Craftable" class="hp-emoji"></span> next to cards:
+In your collection, look for the <span class="hp-icon-orange" markdown="1"><img src="https://wizarding.cards/assets/emojis/craftable.png" alt="Craftable" class="hp-emoji"> Orange Diamond</span> next to cards:
 
 - Orange icon = You have enough resources to craft this card
 - The icon appears automatically when you meet the requirements
@@ -102,7 +102,7 @@ Not sure what to craft first? Here's a recommended priority:
 
 !!! tip "Smart Resource Usage"
     **Best Practices:**
-    
+
     - Don't craft commons/uncommons - they're easy to claim naturally
     - Save resources for rare+ cards
     - Craft during "Card Crafter" daily quests for bonus rewards
@@ -114,31 +114,31 @@ Resource costs are stored per card in the database and may vary. The following a
 
 ### Common Cards
 - **Typical Cost:** 3 Common Resources
-- **Galleon Reward:** 5 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> (5 × 1)
+- **Galleon Reward:** <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 5 (5 × 1)
 - **XP Reward:** 500 XP (500 × 1)
 - **Best Strategy:** Don't craft these - claim them naturally
 
 ### Uncommon Cards
 - **Typical Cost:** 5 Uncommon Resources
-- **Galleon Reward:** 10 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> (5 × 2)
+- **Galleon Reward:** <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 10 (5 × 2)
 - **XP Reward:** 1,000 XP (500 × 2)
 - **Best Strategy:** Only craft to complete sets or for quests
 
 ### Rare Cards
 - **Typical Cost:** 8 Rare Resources
-- **Galleon Reward:** 15 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> (5 × 3)
+- **Galleon Reward:** <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 15 (5 × 3)
 - **XP Reward:** 1,500 XP (500 × 3)
 - **Best Strategy:** Good crafting targets - hard to claim, reasonable cost
 
 ### Legendary Cards
 - **Typical Cost:** 15 Legendary Resources
-- **Galleon Reward:** 20 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> (5 × 4)
+- **Galleon Reward:** <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 20 (5 × 4)
 - **XP Reward:** 2,000 XP (500 × 4)
 - **Best Strategy:** Excellent for collection completion
 
 ### Mythic Cards
 - **Typical Cost:** 30 Mythic Resources
-- **Galleon Reward:** 25 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> (5 × 5)
+- **Galleon Reward:** <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> 25 (5 × 5)
 - **XP Reward:** 2,500 XP (500 × 5)
 - **Best Strategy:** Only craft when you have excess mythic resources
 
@@ -146,7 +146,7 @@ Resource costs are stored per card in the database and may vary. The following a
     Craft rewards are calculated as: **Base (5 Galleons, 500 XP) × Rarity Multiplier × Shiny Multiplier (if applicable) × Global Multiplier (if active)**
 
 !!! note "Shiny Variants"
-    <span class="hp-variant-shiny" markdown="1">Shiny</span> <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> variants **can** be crafted, but they cost **3× the resources** and give **3× the rewards**. <span class="hp-variant-gold" markdown="1">Gold</span> <img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"> variants cannot be crafted and must be claimed randomly.
+    <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> <span class="hp-variant-shiny" markdown="1">Shiny</span> variants **can** be crafted, but they cost **3× the resources** and give **3× the rewards**. <img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"> <span class="hp-variant-gold" markdown="1">Gold</span> variants cannot be crafted and must be claimed randomly.
 
 ## Daily Quest Integration
 
@@ -190,7 +190,7 @@ To build up resources for crafting:
 
 !!! tip "Pro Strategies"
     **Expert Tips:**
-    
+
     1. **Track Your Collection** - Know exactly which cards you need
     2. **Calculate Resource Needs** - Plan ahead for expensive crafts
     3. **Craft During Multiplier Events** - Some events boost XP from crafts
