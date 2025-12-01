@@ -8,10 +8,6 @@ The `/claim` command is the core of Wizarding Cards - it's how you collect new c
 
 ## How to Use
 
-```
-/claim
-```
-
 Simply type `/claim` in any channel where the bot is present. The bot will give you a random card from the entire collection.
 
 ## What Happens When You Claim
@@ -19,7 +15,7 @@ Simply type `/claim` in any channel where the bot is present. The bot will give 
 When you successfully claim a card, you'll receive:
 
 1. **A Random Card** - One card selected from all available cards
-2. **Galleons** - Currency (amount increases with streak)
+2. **Galleons** - Currency (amount based on card rarity)
 3. **XP** - Experience points to level up
 4. **Streak Progress** - Your streak increases by 1
 5. **Event Currency** - During seasonal events (Sweets, Crackers, Coal)
@@ -65,46 +61,57 @@ Your **streak** is the number of consecutive claims you've made without letting 
 
 Higher streaks provide significant advantages:
 
-#### 1. Increased Rare Card Odds
-The higher your streak, the better your chances of getting rare cards:
+#### 1. Increased Higher Rarity Card Odds
+The higher your streak, the better your chances of getting Legendary and Mythic cards (rarities that can be shiny):
 
-| Streak Range | Bonus |
-|--------------|-------|
-| 1-10 | Base odds |
-| 11-25 | +10% rare card chance |
-| 26-50 | +20% rare card chance |
-| 51-100 | +30% rare card chance |
-| 100+ | +40% rare card chance |
+- **Streak Bonus:** Reduces the odds denominator by `streak × 0.001` (capped at streak 5000)
+- **Legendary:** Base odds of 1 in 20 (5%) improve with higher streaks
+- **Mythic:** Base odds of 1 in 100 (1%) improve with higher streaks
+- **Maximum Effect:** At streak 5000+, Legendary odds improve significantly, and Mythic odds improve substantially
 
-#### 2. Galleon Multiplier
-Your Galleon rewards are multiplied by your streak:
+**Example:**
+- At streak 1000: Legendary odds improve from 1 in 20 to approximately 1 in 19
+- At streak 5000: Maximum bonus applied (reduction of 5 to the odds denominator)
 
-- **Streak 1-5:** 1.0x multiplier
-- **Streak 6-15:** 1.5x multiplier
-- **Streak 16-30:** 2.0x multiplier
-- **Streak 31-50:** 2.5x multiplier
-- **Streak 51+:** 3.0x multiplier
-
-#### 3. Status Symbol
+#### 2. Status Symbol
 High streaks show dedication and appear on your profile and leaderboards!
 
 [Learn more about the streak system →](../features/streaks.md)
 
 ## Card Rarity Odds
 
-Your claim has different chances for each rarity:
+The system rolls for rarities from highest to lowest. Each rarity has a "1 in X" chance:
 
-| Rarity | Base Chance | With 100+ Streak |
-|--------|-------------|------------------|
-| **Common** | 50% | 40% |
-| **Uncommon** | 30% | 25% |
-| **Rare** | 15% | 20% |
-| **Legendary** | 4% | 10% |
-| **Mythic** | 0.9% | 4.5% |
-| **Cursed** | 0.1% | 0.5% |
+| Rarity | Base Odds | Approximate Chance |
+|--------|-----------|-------------------|
+| **Cursed** | 1 in 2,000 | ~0.05% |
+| **Mythic** | 1 in 100 | ~1% |
+| **Legendary** | 1 in 20 | ~5% |
+| **Rare** | 1 in 5 | ~20% |
+| **Uncommon** | 1 in 3 | ~33% |
+| **Common** | Guaranteed if all else fails | ~50% |
+
+!!! note "How It Works"
+    The system checks rarities from highest to lowest. If you fail all higher rarity rolls, you're guaranteed a Common card. Streaks improve odds for Legendary and Mythic cards only.
 
 !!! note "Shiny & Gold Variants"
     When you claim a Legendary or Mythic card, there's an additional small chance it will be a <span class="hp-variant-shiny" markdown="1">Shiny</span> <img src="https://wizarding.cards/assets/emojis/shiny.png" alt="Shiny" class="hp-emoji"> or <span class="hp-variant-gold" markdown="1">Gold</span> <img src="https://wizarding.cards/assets/emojis/golden.png" alt="Golden" class="hp-emoji"> variant!
+
+## Galleon Rewards
+
+Galleon rewards are based on the **rarity** of the card you claim, not your streak:
+
+| Rarity | Galleons |
+|--------|----------|
+| **Common** | 1 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
+| **Uncommon** | 2 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
+| **Rare** | 3 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
+| **Legendary** | 4 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
+| **Mythic** | 5 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
+| **Cursed** | 6 <img src="https://wizarding.cards/assets/emojis/galleons.png" alt="Galleons" class="hp-emoji"> |
+
+!!! note "Global Multipliers"
+    During special events (like Global Vault Keys), all Galleon rewards are multiplied. This applies to the base reward amount.
 
 ## First Claim
 
@@ -117,17 +124,14 @@ Your very first claim in Wizarding Cards is **free** and immediate:
 
 ## Claim Modifiers
 
-Certain items and events can modify your claim odds:
+Certain items and events can modify your claims:
 
 ### Shop Items That Affect Claims
 
 | Item | Effect |
 |------|--------|
-| **Felix Felicis Potion** | +50% rare card odds for 3 claims |
-| **Time Turner** | Resets claim cooldown immediately |
-| **Duplicate Prevention (Common)** | Prevents common duplicates for 5 claims |
-| **Duplicate Prevention (Uncommon)** | Prevents uncommon duplicates for 5 claims |
-| **Duplicate Prevention (Rare+)** | Prevents rare+ duplicates for 5 claims |
+| **Rapid Reclamation Remedy** | Instantly resets claim cooldown |
+| **Rapid Bounty Draught** | Get 5 cards per claim (stacks with multiple uses) |
 
 ### Global Vault Key Events
 
@@ -145,16 +149,16 @@ When a Global Vault Key is active:
 
     1. **Set Reminders** - Don't let your streak die!
     2. **Claim Consistently** - Try to claim every 3 hours during active hours
-    3. **Build High Streaks** - The benefits compound significantly
-    4. **Use Potions Strategically** - Save Felix Felicis for when you have high streaks
+    3. **Build High Streaks** - Improves odds for Legendary and Mythic cards
+    4. **Use Items Strategically** - Save Rapid Reclamation Remedy for emergency streak protection
     5. **Time Your Claims** - Claim right before bed to extend your streak window overnight
 
 ## Common Mistakes to Avoid
 
-❌ **Forgetting About Cooldown** - Claiming is time-gated, plan accordingly
-❌ **Breaking Streaks** - Set multiple reminders to prevent this
-❌ **Not Using Items** - Felix Felicis and other items are meant to be used!
-❌ **Claiming Without Strategy** - Consider using Duplicate Prevention when targeting specific cards
+- ❌ **Forgetting About Cooldown** - Claiming is time-gated, plan accordingly
+- ❌ **Breaking Streaks** - Set multiple reminders to prevent this
+- ❌ **Not Using Items** - Rapid Reclamation Remedy and other items are meant to be used!
+- ❌ **Expecting Streak to Affect Galleons** - Galleons are based on card rarity, not streak
 
 ## Daily Quest Integration
 
@@ -192,18 +196,23 @@ Your claims automatically count toward these quests!
 ## Frequently Asked Questions
 
 **Q: Can I claim multiple cards at once?**
-A: No, `/claim` gives one card at a time with a cooldown between claims.
+
+A: Technically possible with the **Rapid Bounty Draught** shop item (gives 5 cards per claim), but otherwise no - `/claim` gives one card at a time with a cooldown between claims.
 
 **Q: Can I choose which card I get?**
+
 A: No, claims are random. Use `/craft` to target specific cards.
 
 **Q: Do duplicate cards have any value?**
+
 A: Yes! You can disenchant them for resources to craft other cards.
 
 **Q: What happens to my streak if I become Auror?**
+
 A: Your current streak is preserved, and you immediately get the 24-hour window instead of 12.
 
 **Q: Is there a limit to how high my streak can go?**
+
 A: No limit! Some players have streaks in the hundreds or thousands.
 
 ---
